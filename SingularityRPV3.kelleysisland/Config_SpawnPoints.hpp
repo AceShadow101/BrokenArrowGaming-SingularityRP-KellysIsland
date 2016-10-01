@@ -20,7 +20,7 @@
 */
 class CfgSpawnPoints {
     class Civilian {
-        class Kavala {
+        class UnionCity {
             displayName = "Union City";
             spawnMarker = "civ_spawn_1";
             icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
@@ -28,7 +28,7 @@ class CfgSpawnPoints {
             level[] = { "", "", -1 };
         };
 
-        class Athira {
+        class HuntingtonHeights {
             displayName = "Huntington Heights";
             spawnMarker = "civ_spawn_2";
             icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
@@ -36,7 +36,7 @@ class CfgSpawnPoints {
             level[] = { "", "", -1 };
         };
 
-        class Pyrgos {
+        class UnityBeach {
             displayName = "Unity Beach";
             spawnMarker = "civ_spawn_3";
             icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
@@ -44,7 +44,7 @@ class CfgSpawnPoints {
             level[] = { "", "", -1 };
         };
 
-        class Sofia {
+        class Dartmouth {
             displayName = "Dartmouth";
             spawnMarker = "civ_spawn_4";
             icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
@@ -52,7 +52,7 @@ class CfgSpawnPoints {
             level[] = { "", "", -1 };
         };
 
-        class Sofia {
+        class Waterford {
             displayName = "Waterford";
             spawnMarker = "civ_spawn_5";
             icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
@@ -60,7 +60,7 @@ class CfgSpawnPoints {
             level[] = { "", "", -1 };
         };
 
-        class Sofia {
+        class Oceanside {
             displayName = "Oceanside";
             spawnMarker = "civ_spawn_6";
             icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
@@ -94,7 +94,7 @@ class CfgSpawnPoints {
     };
 
     class Cop {
-        class Kavala {
+        class UnionCityHQ {
             displayName = "Union City HQ";
             spawnMarker = "cop_spawn_1";
             icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
@@ -102,7 +102,7 @@ class CfgSpawnPoints {
             level[] = { "", "", -1 };
         };
 
-        class Athira {
+        class PoliceAirHQ {
             displayName = "Police Air HQ";
             spawnMarker = "cop_spawn_3";
             icon = "\a3\ui_f\data\map\MapControl\fuelstation_ca.paa";
@@ -110,7 +110,7 @@ class CfgSpawnPoints {
             level[] = { "", "", -1 };
         };
 
-        class Pyrgos {
+        class ErieCorrections {
             displayName = "Erie Corrections";
             spawnMarker = "cop_spawn_2";
             icon = "\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa";
@@ -118,7 +118,7 @@ class CfgSpawnPoints {
             level[] = { "", "", -1 };
         };
 
-        class Air {
+        class UnityBeachSubstation {
             displayName = "Unity Beach Substation";
             spawnMarker = "cop_spawn_4";
             icon = "\a3\ui_f\data\map\Markers\NATO\b_air.paa";
@@ -126,15 +126,15 @@ class CfgSpawnPoints {
             level[] = { "life_coplevel", "SCALAR", 2 };
         };
 
-        class HW {
-            displayName = "Dartmouth";
+        class DartmouthSubstation {
+            displayName = "Dartmouth Substation";
             spawnMarker = "cop_spawn_5";
             icon = "\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa";
             licenses[] = { { "", true } };
             level[] = { "life_coplevel", "SCALAR", 3 };
         };
 
-        class HW {
+        class UCPDAcademy {
             displayName = "UCPD Academy";
             spawnMarker = "cop_spawn_6";
             icon = "\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa";
@@ -142,7 +142,7 @@ class CfgSpawnPoints {
             level[] = { "life_coplevel", "SCALAR", 3 };
         };
 
-        class HW {
+        class OceanviewSubstation {
             displayName = "Oceanview Substation";
             spawnMarker = "cop_spawn_7";
             icon = "\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa";
@@ -152,15 +152,15 @@ class CfgSpawnPoints {
     };
 
     class Medic {
-        class Kavala {
-            displayName = "Georgetown Hospital";
+        class UnionCity {
+            displayName = "Union City Hospital";
             spawnMarker = "med_spawn_2";
             icon = "\a3\ui_f\data\map\MapControl\hospital_ca.paa";
             licenses[] = { { "", true } };
             level[] = { "", "", -1 };
         };
 
-        class Kavala {
+        class SouthRescue {
             displayName = "South Rescue Station";
             spawnMarker = "med_spawn_4";
             icon = "\a3\ui_f\data\map\MapControl\hospital_ca.paa";
@@ -168,7 +168,7 @@ class CfgSpawnPoints {
             level[] = { "", "", -1 };
         };
 
-        class Kavala {
+        class NorthHaven {
             displayName = "North Haven Hospital";
             spawnMarker = "med_spawn_3";
             icon = "\a3\ui_f\data\map\MapControl\hospital_ca.paa";
