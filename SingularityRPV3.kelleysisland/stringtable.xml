@@ -4654,28 +4654,6 @@
             <Portuguese>Você precisa habilitar o Picture in Picture (PiP), através das suas configurações de vídeo para usar esta opção!</Portuguese>
             <Polish>Musisz włączyć Obraz w obrazie (PiP) w ustawieniach graficznych aby tego używać!</Polish>
         </Key>
-		<Key ID="STR_License_Hunting">
-            <Original>Hunting License</Original>
-            <Czech>licencí</Czech>
-            <Spanish>Licencias:</Spanish>
-            <Russian></Russian>
-            <German>Lizenzen:</German>
-            <French>Licences:</French>
-            <Italian>Licenze:</Italian>
-            <Portuguese>Licenças:</Portuguese>
-            <Polish>Licencje:</Polish>
-        </Key>
-			<Key ID="STR_License_Federal">
-            <Original>Federal License</Original>
-            <Czech>licencí</Czech>
-            <Spanish>Licencias:</Spanish>
-            <Russian></Russian>
-            <German>Lizenzen:</German>
-            <French>Licences:</French>
-            <Italian>Licenze:</Italian>
-            <Portuguese>Licenças:</Portuguese>
-            <Polish>Licencje:</Polish>
-        </Key>
         <Key ID="STR_Cop_Licenses">
             <Original>Licenses:</Original>
             <Czech>licencí</Czech>

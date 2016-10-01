@@ -7,7 +7,7 @@
     Blah
 */
 private["_shop","_sideCheck","_spawnPoints","_shopFlag","_shopTitle","_disableBuy"];
-(SEL(_this,3)) params [
+(_this select 3) params [
     ["_shop","",[""]],
     ["_sideCheck",sideUnknown,[civilian]],
     ["_spawnPoints","",["",[]]],
@@ -19,7 +19,7 @@ private["_shop","_sideCheck","_spawnPoints","_shopFlag","_shopTitle","_disableBu
 disableSerialization;
 //Long boring series of checks
 if (dialog) exitWith {};
-if (_shop == "") exitWith {};
+if (_shop isEqualTo "") exitWith {};
 if (_sideCheck != sideUnknown && {playerSide != _sideCheck}) exitWith {hint localize "STR_Shop_Veh_NotAllowed"};
 if (LIFE_SETTINGS(getNumber,"vehicleShop_3D") isEqualTo 1) then {
   createDialog "Life_Vehicle_Shop_v2_3D";
@@ -46,11 +46,11 @@ ctrlShow [2304,false];
 
 //Loop through
 {
-    _className = SEL(_x,0);
-    _levelAssert = SEL(_x,1);
-    _levelName = SEL(_levelAssert,0);
-    _levelType = SEL(_levelAssert,1);
-    _levelValue = SEL(_levelAssert,2);
+    _className = _x select 0;
+    _levelAssert = _x select 1;
+    _levelName = _levelAssert select 0;
+    _levelType = _levelAssert select 1;
+    _levelValue = _levelAssert select 2;
     _showall = true;
 
     if (!(_levelValue isEqualTo -1)) then {

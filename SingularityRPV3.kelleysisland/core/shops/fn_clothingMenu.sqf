@@ -12,10 +12,10 @@ if (player != vehicle player) exitWith {titleText[localize "STR_NOTF_ActionInVeh
 _exit = false;
 
 /* License check & config validation */
-if (!isClass(missionConfigFile >> "Clothing" >> (SEL(_this,3)))) exitWith {}; //Bad config entry.
-_shopTitle = M_CONFIG(getText,"Clothing",(SEL(_this,3)),"title");
-_shopSide = M_CONFIG(getText,"Clothing",(SEL(_this,3)),"side");
-_license = M_CONFIG(getText,"Clothing",(SEL(_this,3)),"license");
+if (!isClass(missionConfigFile >> "Clothing" >> (_this select 3))) exitWith {}; //Bad config entry.
+_shopTitle = M_CONFIG(getText,"Clothing",(_this select 3),"title");
+_shopSide = M_CONFIG(getText,"Clothing",(_this select 3),"side");
+_license = M_CONFIG(getText,"Clothing",(_this select 3),"license");
 
 if (!(_shopSide isEqualTo "")) then {
     _flag = switch (playerSide) do {case west: {"cop"}; case independent: {"med"}; default {"civ"};};
@@ -34,15 +34,15 @@ ctrlSetText [3103,localize _shopTitle];
 createDialog "Life_Clothing";
 disableSerialization;
 
-(findDisplay 3100) displaySetEventHandler ["KeyDown","if ((_this select 1) == 1) then {closeDialog 0; [] call life_fnc_playerSkins;}"]; //Fix Custom Skin after ESC
+(findDisplay 3100) displaySetEventHandler ["KeyDown","if ((_this select 1) isEqualTo 1) then {closeDialog 0; [] call life_fnc_playerSkins;}"]; //Fix Custom Skin after ESC
 
 sliderSetRange [3107, 0, 360];
 
 //Cop / Civ Pre Check
-if ((SEL(_this,3) in ["bruce","dive","reb","kart"] && playerSide != civilian)) exitWith {hint localize "STR_Shop_NotaCiv"; closeDialog 0;};
-if ((SEL(_this,3) == "reb" && !license_civ_rebel)) exitWith {hint localize "STR_Shop_NotaReb"; closeDialog 0;};
-if ((SEL(_this,3) in ["cop"] && playerSide != west)) exitWith {hint localize "STR_Shop_NotaCop"; closeDialog 0;};
-if ((SEL(_this,3) in ["dive"] && !license_civ_dive)) exitWith { hint localize "STR_Shop_NotaDive"; closeDialog 0;};
+if (((_this select 3) in ["bruce","dive","reb","kart"] && playerSide != civilian)) exitWith {hint localize "STR_Shop_NotaCiv"; closeDialog 0;};
+if (((_this select 3) == "reb" && !license_civ_rebel)) exitWith {hint localize "STR_Shop_NotaReb"; closeDialog 0;};
+if (((_this select 3) in ["cop"] && playerSide != west)) exitWith {hint localize "STR_Shop_NotaCop"; closeDialog 0;};
+if (((_this select 3) in ["dive"] && !license_civ_dive)) exitWith { hint localize "STR_Shop_NotaDive"; closeDialog 0;};
 
 if (LIFE_SETTINGS(getNumber,"clothing_noTP") isEqualTo 1) then {
     _pos = getPosATL player;
@@ -50,7 +50,7 @@ if (LIFE_SETTINGS(getNumber,"clothing_noTP") isEqualTo 1) then {
     if (LIFE_SETTINGS(getNumber,"clothing_box") isEqualTo 1) then {
         _pos = [1000,1000,10000];
     } else {
-        switch (SEL(_this,3)) do {
+        switch (_this select 3) do {
             case "reb": {_pos = [13590,12214.6,0.00141621];};
             case "cop": {_pos = [12817.5,16722.9,0.00151062];};
             case "kart": {_pos = [14120.5,16440.3,0.00139236];};
@@ -108,7 +108,7 @@ if (LIFE_SETTINGS(getNumber,"clothing_noTP") isEqualTo 1) then {
     player setDir 360;
 };
 
-life_clothing_store = SEL(_this,3);
+life_clothing_store = (_this select 3);
 
 /* Store license check */
 if (isClass(missionConfigFile >> "Licenses" >> life_clothing_store)) then {
@@ -181,7 +181,7 @@ if (isNil "life_clothesPurchased") exitWith {
     if (life_oldHat != "") then {player addHeadgear life_oldHat} else {removeHeadgear player;};
     if (life_oldGlasses != "") then {player addGoggles life_oldGlasses;} else {removeGoggles player};
     if (backpack player != "") then {
-        if (life_oldBackpack == "") then {
+        if (life_oldBackpack isEqualTo "") then {
             removeBackpack player;
         } else {
             removeBackpack player;
@@ -200,7 +200,7 @@ if (isNil "life_clothesPurchased") exitWith {
     };
 
     if (vest player != "") then {
-        if (life_oldVest == "") then {
+        if (life_oldVest isEqualTo "") then {
             removeVest player;
         } else {
             player addVest life_oldVest;
@@ -214,17 +214,17 @@ if (isNil "life_clothesPurchased") exitWith {
 life_clothesPurchased = nil;
 
 //Check uniform purchase.
-if ((life_clothing_purchase select 0) == -1) then {
+if ((life_clothing_purchase select 0) isEqualTo -1) then {
     if (life_oldClothes != uniform player) then {player addUniform life_oldClothes;};
 };
 //Check hat
-if ((life_clothing_purchase select 1) == -1) then {
-    if (life_oldHat != headgear player) then {if (life_oldHat == "") then {removeHeadGear player;} else {player addHeadGear life_oldHat;};};
+if ((life_clothing_purchase select 1) isEqualTo -1) then {
+    if (life_oldHat != headgear player) then {if (life_oldHat isEqualTo "") then {removeHeadGear player;} else {player addHeadGear life_oldHat;};};
 };
 //Check glasses
-if ((life_clothing_purchase select 2) == -1) then {
+if ((life_clothing_purchase select 2) isEqualTo -1) then {
     if (life_oldGlasses != goggles player) then {
-        if (life_oldGlasses == "") then  {
+        if (life_oldGlasses isEqualTo "") then  {
             removeGoggles player;
         } else {
             player addGoggles life_oldGlasses;
@@ -232,9 +232,9 @@ if ((life_clothing_purchase select 2) == -1) then {
     };
 };
 //Check Vest
-if ((life_clothing_purchase select 3) == -1) then {
+if ((life_clothing_purchase select 3) isEqualTo -1) then {
     if (life_oldVest != vest player) then {
-        if (life_oldVest == "") then {removeVest player;} else {
+        if (life_oldVest isEqualTo "") then {removeVest player;} else {
             player addVest life_oldVest;
             {[_x,true,false,false,true] call life_fnc_handleItem;} forEach life_oldVestItems;
         };
@@ -242,9 +242,9 @@ if ((life_clothing_purchase select 3) == -1) then {
 };
 
 //Check Backpack
-if ((life_clothing_purchase select 4) == -1) then {
+if ((life_clothing_purchase select 4) isEqualTo -1) then {
     if (life_oldBackpack != backpack player) then {
-        if (life_oldBackpack == "") then {removeBackpack player;} else {
+        if (life_oldBackpack isEqualTo "") then {removeBackpack player;} else {
             removeBackpack player;
             player addBackpack life_oldBackpack;
             {[_x,true,true] call life_fnc_handleItem;} forEach life_oldBackpackItems;

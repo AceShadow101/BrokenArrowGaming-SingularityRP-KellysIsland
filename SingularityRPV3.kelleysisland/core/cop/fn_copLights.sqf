@@ -30,26 +30,6 @@ switch (typeOf _vehicle) do
     {
         _lightleft lightAttachObject [_vehicle, [-0.37, -1.9, 0.7]];
     };
-	
-	case "C_Offroad_02_unarmed_F":
-	{
-		_lightleft lightAttachObject [_vehicle, [-0.79, 1.9, -0.29]];
-	};
-	
-	case "B_GEN_Offroad_01_gen_F":
-	{
-		_lightleft lightAttachObject [_vehicle, [-0.37, 0.0, 0.56]];
-	};
-	
-	case "B_T_LSV_01_armed_F":
-	{
-		_lightleft lightAttachObject [_vehicle, [-0.37, 0.40, -0.20]];
-	};
-	
-	case "B_T_LSV_01_unarmed_F":
-	{
-		_lightleft lightAttachObject [_vehicle, [-0.37, 0.50, -0.10]];
-	};
 
     case "C_SUV_01_F":
     {
@@ -95,26 +75,6 @@ switch (typeOf _vehicle) do
     {
         _lightright lightAttachObject [_vehicle, [0.37, -1.9, 0.7]];
     };
-	
-	case "C_Offroad_02_unarmed_F":
-	{
-		_lightright lightAttachObject [_vehicle, [0.79, 1.9, -0.29]];
-	};
-	
-	case "B_GEN_Offroad_01_gen_F":
-	{
-		_lightright lightAttachObject [_vehicle, [0.37, 0.0, 0.56]];
-	};
-	
-	case "B_T_LSV_01_armed_F":
-	{
-		_lightright lightAttachObject [_vehicle, [0.37, 0.40, -0.20]];
-	};
-	
-	case "B_T_LSV_01_unarmed_F":
-	{
-		_lightright lightAttachObject [_vehicle, [0.37, 0.50, -0.10]];
-	};
 
     case "C_SUV_01_F":
     {

@@ -18,7 +18,7 @@ _return pushBack backpack player;
 _return pushBack goggles player;
 _return pushBack headgear player;
 _return pushBack assignedITems player;
-if (playerSide == west || playerSide == civilian && {LIFE_SETTINGS(getNumber,"save_civilian_weapons") isEqualTo 1}) then {
+if (playerSide isEqualTo west || playerSide isEqualTo civilian && {LIFE_SETTINGS(getNumber,"save_civilian_weapons") isEqualTo 1}) then {
     _return pushBack primaryWeapon player;
     _return pushBack handgunWeapon player;
 } else {
@@ -70,7 +70,7 @@ if (!(vest player isEqualTo "")) then {
 };
 
 if (count (primaryWeaponMagazine player) > 0 && alive player) then {
-    _pMag = SEL((primaryWeaponMagazine player),0);
+    _pMag = ((primaryWeaponMagazine player) select 0);
 
     if (!(_pMag isEqualTo "")) then {
         _uni = player canAddItemToUniform _pMag;
