@@ -1,0 +1,1 @@
+player addMagazine "DDOPP_1Rnd_X26";player addMagazine "DDOPP_1Rnd_X26";player addMagazine "DDOPP_1Rnd_X26";player addMagazine "DDOPP_1Rnd_X26";player addWeapon "DDOPP_X26";
