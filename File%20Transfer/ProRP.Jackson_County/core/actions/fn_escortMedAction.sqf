@@ -1,1 +1,0 @@
-cursorTarget call life_fnc_escortAction;

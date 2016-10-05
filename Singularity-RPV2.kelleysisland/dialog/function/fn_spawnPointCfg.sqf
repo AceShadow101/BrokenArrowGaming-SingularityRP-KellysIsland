@@ -18,11 +18,12 @@ switch (_side) do
 	{
 		_return = [
 			["cop_spawn_1","Union City HQ","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
-			["cop_spawn_2","Tanoa DOC","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
-			["cop_spawn_3","Tanoa Police Air HQ","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
-			["cop_spawn_4","La Rochelle Substation","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
-			["cop_spawn_5","Lijnhaven Substation","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
-			["cop_spawn_6","Tanoa Police Academy","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
+			["cop_spawn_2","Erie County Jail","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+			["cop_spawn_3","Erie County Airport","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+			["cop_spawn_4","Unity Beach Substation","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+			["cop_spawn_5","Dartmouth Substation","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+			["cop_spawn_6","Erie County Police Academy","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+			["cop_spawn_7","Oceanview Substation","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
 		];
 	};
 	
@@ -31,11 +32,11 @@ switch (_side) do
 	
 		_return = [
 			["civ_spawn_1","Union City","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
-			["civ_spawn_2","La Rochelle","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
-			["civ_spawn_3","Lijnhaven","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
-			["civ_spawn_4","Katkoula","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
-			["civ_spawn_5","Tanouka","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
-			["civ_spawn_6","Oumere","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
+			["civ_spawn_2","Huntington Heights","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+			["civ_spawn_3","Unity Beach","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+			["civ_spawn_4","Dartmouth","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+			["civ_spawn_5","Waterford","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+			["civ_spawn_6","Oceanside","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
 			];
 		
 		if(count life_houses > 0) then {
@@ -56,10 +57,9 @@ switch (_side) do
 	
 	case independent: {
 		_return = [
-			["medic_spawn_2","Lijnhaven FD","\a3\ui_f\data\map\MapControl\hospital_ca.paa"],
-			["medic_spawn_3","Georgetown Hospital","\a3\ui_f\data\map\MapControl\hospital_ca.paa"],
-			["medic_spawn_4","Rescue Station Tanoa","\a3\ui_f\data\map\MapControl\hospital_ca.paa"],
-			["medic_spawn_5","Katkoula Volunteer FD","\a3\ui_f\data\map\MapControl\hospital_ca.paa"]
+			["medic_spawn_2","Union City Hospital","\a3\ui_f\data\map\MapControl\hospital_ca.paa"],
+			["medic_spawn_3","North Haven Hospiral","\a3\ui_f\data\map\MapControl\hospital_ca.paa"],
+			["medic_spawn_4","Southern Rescue Station","\a3\ui_f\data\map\MapControl\hospital_ca.paa"]
 		];
 	};
 };

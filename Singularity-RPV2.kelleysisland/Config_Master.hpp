@@ -333,7 +333,7 @@ class VirtualShops {
 
 	class cop {
 		name = "STR_Shops_Cop";
-		items[] = { "donuts", "coffee", "waterBottle", "rabbit_grilled", "apple", "redgull", "fuelFull", "defusekit" };
+		items[] = { "donuts", "coffee", "waterBottle", "keycard", "rabbit_grilled", "apple", "redgull", "fuelFull", "defusekit" };
 	};
 
 	class cement {
