@@ -1,5 +1,4 @@
 #include <macro.h>
-player setVariable ['copLevel',1]
 /*
 	File: fn_onPlayerRespawn.sqf
 	Author: Bryan "Tonic" Boardwine
