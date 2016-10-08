@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={2664.2041,26.784056,4550.8843};
-		dir[]={0.9112044,-0.41187346,-0.015449724};
-		up[]={0.41194469,0.91117471,-0.006984211};
-		aside[]={-0.016957,-4.9612936e-007,-0.9999423};
+		pos[]={2690.5718,24.216465,4551.9248};
+		dir[]={0.26831922,-0.62840664,0.73027724};
+		up[]={0.21675631,0.77779186,0.58994114};
+		aside[]={0.93873483,-5.1964889e-008,-0.34491315};
 	};
 };
 binarizationWanted=0;
@@ -140,14 +140,13 @@ addons[]=
 	"A3_Structures_F_Mil_TentHangar",
 	"A3_Structures_F_Ind_Cargo",
 	"A3_Supplies_F_Heli_CargoNets",
-	"Gate_C",
 	"DED_Simple_01"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=52;
+		items=51;
 		class Item0
 		{
 			className="A3_Ui_F";
@@ -449,11 +448,6 @@ class AddonsMetaData
 		};
 		class Item50
 		{
-			className="Gate_C";
-			name="Gate_C";
-		};
-		class Item51
-		{
 			className="DED_Simple_01";
 			name="DED_Simple_01";
 		};
@@ -509,7 +503,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=4478;
+		items=4475;
 		class Item0
 		{
 			dataType="Marker";
@@ -63051,7 +63045,7 @@ class Mission
 			};
 			id=2557;
 			type="Land_CashDesk_F";
-			atlOffset=0.010282516;
+			atlOffset=0.07575798;
 		};
 		class Item1968
 		{
@@ -124266,13 +124260,12 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={2693.5569,16.168158,4542.7241};
+				position[]={2694.2483,16.168158,4542.7241};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
-				init="(nearestObject [this,""Land_GatedoorA""]) hideObject true;";
 			};
 			id=10713;
 			type="Land_CncShelter_F";
@@ -124305,7 +124298,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={2689.6311,16.764397,4543.8105};
+				position[]={2690.323,16.764397,4543.8105};
 			};
 			side="Empty";
 			flags=5;
@@ -124344,7 +124337,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={2686.377,16.764408,4543.79};
+				position[]={2687.0579,16.764408,4543.79};
 			};
 			side="Empty";
 			flags=5;
@@ -125281,7 +125274,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={2685.4299,16.764408,4543.7891};
+				position[]={2685.7302,16.764408,4543.7891};
 			};
 			side="Empty";
 			flags=5;
@@ -127817,7 +127810,7 @@ class Mission
 			position[]={6688.5298,-1.6143223e-013,1004.739};
 			name="car_a_1";
 			type="Empty";
-			angle=53.424969;
+			angle=53.424965;
 			id=11006;
 			atlOffset=-19;
 		};
@@ -128195,45 +128188,6 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={2694.9985,19.161085,4550.8291};
-				angles[]={0,1.5707964,0};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-			};
-			id=11035;
-			type="Land_Gate_C";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="allowDamage";
-					expression="_this allowdamage _value;";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=0;
-						};
-					};
-				};
-				nAttributes=1;
-			};
-		};
-		class Item4462
-		{
-			dataType="Object";
-			class PositionInfo
-			{
 				position[]={2673.552,16.232767,4542.606};
 			};
 			side="Empty";
@@ -128268,7 +128222,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item4463
+		class Item4462
 		{
 			dataType="Object";
 			class PositionInfo
@@ -128307,7 +128261,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item4464
+		class Item4463
 		{
 			dataType="Object";
 			class PositionInfo
@@ -128346,7 +128300,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item4465
+		class Item4464
 		{
 			dataType="Object";
 			class PositionInfo
@@ -128385,7 +128339,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item4466
+		class Item4465
 		{
 			dataType="Object";
 			class PositionInfo
@@ -128423,7 +128377,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item4467
+		class Item4466
 		{
 			dataType="Object";
 			class PositionInfo
@@ -128461,7 +128415,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item4468
+		class Item4467
 		{
 			dataType="Object";
 			class PositionInfo
@@ -128499,7 +128453,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item4469
+		class Item4468
 		{
 			dataType="Object";
 			class PositionInfo
@@ -128537,7 +128491,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item4470
+		class Item4469
 		{
 			dataType="Object";
 			class PositionInfo
@@ -128576,7 +128530,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item4471
+		class Item4470
 		{
 			dataType="Object";
 			class PositionInfo
@@ -128615,7 +128569,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item4472
+		class Item4471
 		{
 			dataType="Object";
 			class PositionInfo
@@ -128654,7 +128608,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item4473
+		class Item4472
 		{
 			dataType="Object";
 			class PositionInfo
@@ -128670,7 +128624,7 @@ class Mission
 			id=11118;
 			type="Land_Kulna";
 		};
-		class Item4474
+		class Item4473
 		{
 			dataType="Object";
 			class PositionInfo
@@ -128686,7 +128640,7 @@ class Mission
 			type="MBG_Killhouse_4_InEditor";
 			atlOffset=0.30667305;
 		};
-		class Item4475
+		class Item4474
 		{
 			dataType="Object";
 			class PositionInfo
@@ -128700,84 +128654,6 @@ class Mission
 			id=11129;
 			type="MBG_Killhouse_5_InEditor";
 			atlOffset=0.26447487;
-		};
-		class Item4476
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={2695.644,16.764408,4561.4531};
-				angles[]={0,1.5707964,0};
-			};
-			side="Empty";
-			flags=5;
-			class Attributes
-			{
-			};
-			id=11130;
-			type="Land_CncWall4_F";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="allowDamage";
-					expression="_this allowdamage _value;";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=0;
-						};
-					};
-				};
-				nAttributes=1;
-			};
-		};
-		class Item4477
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={2695.6519,16.764408,4540.1538};
-				angles[]={0,1.5707964,0};
-			};
-			side="Empty";
-			flags=5;
-			class Attributes
-			{
-			};
-			id=11131;
-			type="Land_CncWall4_F";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="allowDamage";
-					expression="_this allowdamage _value;";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=0;
-						};
-					};
-				};
-				nAttributes=1;
-			};
 		};
 	};
 };
