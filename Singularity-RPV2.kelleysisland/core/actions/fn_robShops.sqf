@@ -24,7 +24,7 @@ _robber = [_this,1,ObjNull,[ObjNull]] call BIS_fnc_param;
 _actionId = _this select 2;
 _newActionName = _this select 3 select 0;
 _name = _this select 3 select 1;
-_kassa = 1000 + round(random 2000);
+_kassa = 5000 + round(random 20000);
 
 diag_log format["fn_robShops(): shop = %1, robber = %2, actionid = %3, newActionName = %4, name = %5",
                 _shop, _robber, _actionId, _newActionName, _name];
