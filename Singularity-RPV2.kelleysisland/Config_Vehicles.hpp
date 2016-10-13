@@ -607,14 +607,23 @@ class CfgVehicles {
              { "Blue", "civ", {
                 "#(argb,8,8,3)color(0,0,0.627451,1.0,CO)"
             } },
+             { "Purple", "civ", {
+                "#(argb,8,8,3)color(0.705882,0.0470588,0.603922,1.0,CO"
+            } },
              { "Green", "civ", {
                 "#(argb,8,8,3)color(0,0.501961,0,1.0,CO)"
             } },
              { "Lime Green", "civ", {
                 "#(argb,8,8,3)color(0,1,0,1.0,CO)"
             } },
-             { "Red", "civ", {
+             { "Dark Red", "civ", {
                 "#(argb,8,8,3)color(0.501961,0,0,1.0,CO)"
+            } },
+             { "Red", "civ", {
+                "#(argb,8,8,3)color(1,0.176471,0.176471,1.0,CO)"
+            } },
+             { "Pink", "civ", {
+                "#(argb,8,8,3)color(1,0.501961,0.752941,1.0,CO)"
             } },
              { "Orange", "civ", {
                 "#(argb,8,8,3)color(1,0.501961,0,1.0,CO)"
@@ -909,22 +918,34 @@ class CfgVehicles {
 		chopShop = 13800;
 		textures[] = {
 			 { "Black", "civ", {
-                "#(argb,0,0,0)color(0,1,0,1)"
+                " #(argb,8,8,3)color(0,0,0,1.0,CO)"
             } },
              { "White", "civ", {
-                "#(argb,255,255,255)color(0,1,0,1)"
+                "#(argb,8,8,3)color(1,1,1,1.0,CO)"
             } },
              { "Blue", "civ", {
-                "#(argb,0,23,82)color(0,1,0,1)"
+                "#(argb,8,8,3)color(0,0,0.627451,1.0,CO)"
+            } },
+             { "Purple", "civ", {
+                "#(argb,8,8,3)color(0.705882,0.0470588,0.603922,1.0,CO"
             } },
              { "Green", "civ", {
-                "#(argb,8,71,0)color(0,1,0,1)"
+                "#(argb,8,8,3)color(0,0.501961,0,1.0,CO)"
+            } },
+             { "Lime Green", "civ", {
+                "#(argb,8,8,3)color(0,1,0,1.0,CO)"
+            } },
+             { "Dark Red", "civ", {
+                "#(argb,8,8,3)color(0.501961,0,0,1.0,CO)"
             } },
              { "Red", "civ", {
-                "#(argb,115,5,5)color(0,1,0,1)"
+                "#(argb,8,8,3)color(1,0.176471,0.176471,1.0,CO)"
+            } },
+             { "Pink", "civ", {
+                "#(argb,8,8,3)color(1,0.501961,0.752941,1.0,CO)"
             } },
              { "Orange", "civ", {
-                "#(argb,231,96,5)color(0,1,0,1)"
+                "#(argb,8,8,3)color(1,0.501961,0,1.0,CO)"
             } }
 		};
 	};
@@ -936,22 +957,34 @@ class CfgVehicles {
 		chopShop = 13800;
 		textures[] = {
 			 { "Black", "civ", {
-                "#(argb,0,0,0)color(0,1,0,1)"
+                " #(argb,8,8,3)color(0,0,0,1.0,CO)"
             } },
              { "White", "civ", {
-                "#(argb,255,255,255)color(0,1,0,1)"
+                "#(argb,8,8,3)color(1,1,1,1.0,CO)"
             } },
              { "Blue", "civ", {
-                "#(argb,0,23,82)color(0,1,0,1)"
+                "#(argb,8,8,3)color(0,0,0.627451,1.0,CO)"
+            } },
+             { "Purple", "civ", {
+                "#(argb,8,8,3)color(0.705882,0.0470588,0.603922,1.0,CO"
             } },
              { "Green", "civ", {
-                "#(argb,8,71,0)color(0,1,0,1)"
+                "#(argb,8,8,3)color(0,0.501961,0,1.0,CO)"
+            } },
+             { "Lime Green", "civ", {
+                "#(argb,8,8,3)color(0,1,0,1.0,CO)"
+            } },
+             { "Dark Red", "civ", {
+                "#(argb,8,8,3)color(0.501961,0,0,1.0,CO)"
             } },
              { "Red", "civ", {
-                "#(argb,115,5,5)color(0,1,0,1)"
+                "#(argb,8,8,3)color(1,0.176471,0.176471,1.0,CO)"
+            } },
+             { "Pink", "civ", {
+                "#(argb,8,8,3)color(1,0.501961,0.752941,1.0,CO)"
             } },
              { "Orange", "civ", {
-                "#(argb,231,96,5)color(0,1,0,1)"
+                "#(argb,8,8,3)color(1,0.501961,0,1.0,CO)"
             } }
 		};
 	};
@@ -963,22 +996,34 @@ class CfgVehicles {
 		chopShop = 13800;
 		textures[] = {
 			 { "Black", "civ", {
-                "#(argb,0,0,0)color(0,1,0,1)"
+                " #(argb,8,8,3)color(0,0,0,1.0,CO)"
             } },
              { "White", "civ", {
-                "#(argb,255,255,255)color(0,1,0,1)"
+                "#(argb,8,8,3)color(1,1,1,1.0,CO)"
             } },
              { "Blue", "civ", {
-                "#(argb,0,23,82)color(0,1,0,1)"
+                "#(argb,8,8,3)color(0,0,0.627451,1.0,CO)"
+            } },
+             { "Purple", "civ", {
+                "#(argb,8,8,3)color(0.705882,0.0470588,0.603922,1.0,CO"
             } },
              { "Green", "civ", {
-                "#(argb,8,71,0)color(0,1,0,1)"
+                "#(argb,8,8,3)color(0,0.501961,0,1.0,CO)"
+            } },
+             { "Lime Green", "civ", {
+                "#(argb,8,8,3)color(0,1,0,1.0,CO)"
+            } },
+             { "Dark Red", "civ", {
+                "#(argb,8,8,3)color(0.501961,0,0,1.0,CO)"
             } },
              { "Red", "civ", {
-                "#(argb,115,5,5)color(0,1,0,1)"
+                "#(argb,8,8,3)color(1,0.176471,0.176471,1.0,CO)"
+            } },
+             { "Pink", "civ", {
+                "#(argb,8,8,3)color(1,0.501961,0.752941,1.0,CO)"
             } },
              { "Orange", "civ", {
-                "#(argb,231,96,5)color(0,1,0,1)"
+                "#(argb,8,8,3)color(1,0.501961,0,1.0,CO)"
             } }
 		};
 	};
@@ -990,22 +1035,34 @@ class CfgVehicles {
 		chopShop = 13800;
 		textures[] = {
 			 { "Black", "civ", {
-                "#(argb,0,0,0)color(0,1,0,1)"
+                " #(argb,8,8,3)color(0,0,0,1.0,CO)"
             } },
              { "White", "civ", {
-                "#(argb,255,255,255)color(0,1,0,1)"
+                "#(argb,8,8,3)color(1,1,1,1.0,CO)"
             } },
              { "Blue", "civ", {
-                "#(argb,0,23,82)color(0,1,0,1)"
+                "#(argb,8,8,3)color(0,0,0.627451,1.0,CO)"
+            } },
+             { "Purple", "civ", {
+                "#(argb,8,8,3)color(0.705882,0.0470588,0.603922,1.0,CO"
             } },
              { "Green", "civ", {
-                "#(argb,8,71,0)color(0,1,0,1)"
+                "#(argb,8,8,3)color(0,0.501961,0,1.0,CO)"
+            } },
+             { "Lime Green", "civ", {
+                "#(argb,8,8,3)color(0,1,0,1.0,CO)"
+            } },
+             { "Dark Red", "civ", {
+                "#(argb,8,8,3)color(0.501961,0,0,1.0,CO)"
             } },
              { "Red", "civ", {
-                "#(argb,115,5,5)color(0,1,0,1)"
+                "#(argb,8,8,3)color(1,0.176471,0.176471,1.0,CO)"
+            } },
+             { "Pink", "civ", {
+                "#(argb,8,8,3)color(1,0.501961,0.752941,1.0,CO)"
             } },
              { "Orange", "civ", {
-                "#(argb,231,96,5)color(0,1,0,1)"
+                "#(argb,8,8,3)color(1,0.501961,0,1.0,CO)"
             } }
 		};
 	};
@@ -1474,22 +1531,34 @@ class CfgVehicles {
 		chopShop = 66000;
 		textures[] = {
 			 { "Black", "civ", {
-                "#(argb,0,0,0)color(0,1,0,1)"
+                " #(argb,8,8,3)color(0,0,0,1.0,CO)"
             } },
              { "White", "civ", {
-                "#(argb,255,255,255)color(0,1,0,1)"
+                "#(argb,8,8,3)color(1,1,1,1.0,CO)"
             } },
              { "Blue", "civ", {
-                "#(argb,0,23,82)color(0,1,0,1)"
+                "#(argb,8,8,3)color(0,0,0.627451,1.0,CO)"
+            } },
+             { "Purple", "civ", {
+                "#(argb,8,8,3)color(0.705882,0.0470588,0.603922,1.0,CO"
             } },
              { "Green", "civ", {
-                "#(argb,8,71,0)color(0,1,0,1)"
+                "#(argb,8,8,3)color(0,0.501961,0,1.0,CO)"
+            } },
+             { "Lime Green", "civ", {
+                "#(argb,8,8,3)color(0,1,0,1.0,CO)"
+            } },
+             { "Dark Red", "civ", {
+                "#(argb,8,8,3)color(0.501961,0,0,1.0,CO)"
             } },
              { "Red", "civ", {
-                "#(argb,115,5,5)color(0,1,0,1)"
+                "#(argb,8,8,3)color(1,0.176471,0.176471,1.0,CO)"
+            } },
+             { "Pink", "civ", {
+                "#(argb,8,8,3)color(1,0.501961,0.752941,1.0,CO)"
             } },
              { "Orange", "civ", {
-                "#(argb,231,96,5)color(0,1,0,1)"
+                "#(argb,8,8,3)color(1,0.501961,0,1.0,CO)"
             } }
 		};
 	};
@@ -1556,23 +1625,35 @@ class CfgVehicles {
 		insurance = 2500;
 		chopShop = 1200000;
 		textures[] = {
-			{ "Black", "civ", {
-                "#(argb,0,0,0)color(0,1,0,1)"
+			 { "Black", "civ", {
+                " #(argb,8,8,3)color(0,0,0,1.0,CO)"
             } },
              { "White", "civ", {
-                "#(argb,255,255,255)color(0,1,0,1)"
+                "#(argb,8,8,3)color(1,1,1,1.0,CO)"
             } },
              { "Blue", "civ", {
-                "#(argb,0,23,82)color(0,1,0,1)"
+                "#(argb,8,8,3)color(0,0,0.627451,1.0,CO)"
+            } },
+             { "Purple", "civ", {
+                "#(argb,8,8,3)color(0.705882,0.0470588,0.603922,1.0,CO"
             } },
              { "Green", "civ", {
-                "#(argb,8,71,0)color(0,1,0,1)"
+                "#(argb,8,8,3)color(0,0.501961,0,1.0,CO)"
+            } },
+             { "Lime Green", "civ", {
+                "#(argb,8,8,3)color(0,1,0,1.0,CO)"
+            } },
+             { "Dark Red", "civ", {
+                "#(argb,8,8,3)color(0.501961,0,0,1.0,CO)"
             } },
              { "Red", "civ", {
-                "#(argb,115,5,5)color(0,1,0,1)"
+                "#(argb,8,8,3)color(1,0.176471,0.176471,1.0,CO)"
+            } },
+             { "Pink", "civ", {
+                "#(argb,8,8,3)color(1,0.501961,0.752941,1.0,CO)"
             } },
              { "Orange", "civ", {
-                "#(argb,231,96,5)color(0,1,0,1)"
+                "#(argb,8,8,3)color(1,0.501961,0,1.0,CO)"
             } }
 		};
 	};
@@ -1663,23 +1744,35 @@ class CfgVehicles {
 		insurance = 2500;
 		chopShop = 17400;
 		textures[] = {
-			{ "Black", "civ", {
-                "#(argb,0,0,0)color(0,1,0,1)"
+			 { "Black", "civ", {
+                " #(argb,8,8,3)color(0,0,0,1.0,CO)"
             } },
              { "White", "civ", {
-                "#(argb,255,255,255)color(0,1,0,1)"
+                "#(argb,8,8,3)color(1,1,1,1.0,CO)"
             } },
              { "Blue", "civ", {
-                "#(argb,0,23,82)color(0,1,0,1)"
+                "#(argb,8,8,3)color(0,0,0.627451,1.0,CO)"
+            } },
+             { "Purple", "civ", {
+                "#(argb,8,8,3)color(0.705882,0.0470588,0.603922,1.0,CO"
             } },
              { "Green", "civ", {
-                "#(argb,8,71,0)color(0,1,0,1)"
+                "#(argb,8,8,3)color(0,0.501961,0,1.0,CO)"
+            } },
+             { "Lime Green", "civ", {
+                "#(argb,8,8,3)color(0,1,0,1.0,CO)"
+            } },
+             { "Dark Red", "civ", {
+                "#(argb,8,8,3)color(0.501961,0,0,1.0,CO)"
             } },
              { "Red", "civ", {
-                "#(argb,115,5,5)color(0,1,0,1)"
+                "#(argb,8,8,3)color(1,0.176471,0.176471,1.0,CO)"
+            } },
+             { "Pink", "civ", {
+                "#(argb,8,8,3)color(1,0.501961,0.752941,1.0,CO)"
             } },
              { "Orange", "civ", {
-                "#(argb,231,96,5)color(0,1,0,1)"
+                "#(argb,8,8,3)color(1,0.501961,0,1.0,CO)"
             } }
 		};
 	};
@@ -1803,22 +1896,34 @@ class CfgVehicles {
 		chopShop = 16000;
 		textures[] = {
 			 { "Black", "civ", {
-                "#(argb,0,0,0)color(0,1,0,1)"
+                " #(argb,8,8,3)color(0,0,0,1.0,CO)"
             } },
              { "White", "civ", {
-                "#(argb,255,255,255)color(0,1,0,1)"
+                "#(argb,8,8,3)color(1,1,1,1.0,CO)"
             } },
              { "Blue", "civ", {
-                "#(argb,0,23,82)color(0,1,0,1)"
+                "#(argb,8,8,3)color(0,0,0.627451,1.0,CO)"
+            } },
+             { "Purple", "civ", {
+                "#(argb,8,8,3)color(0.705882,0.0470588,0.603922,1.0,CO"
             } },
              { "Green", "civ", {
-                "#(argb,8,71,0)color(0,1,0,1)"
+                "#(argb,8,8,3)color(0,0.501961,0,1.0,CO)"
+            } },
+             { "Lime Green", "civ", {
+                "#(argb,8,8,3)color(0,1,0,1.0,CO)"
+            } },
+             { "Dark Red", "civ", {
+                "#(argb,8,8,3)color(0.501961,0,0,1.0,CO)"
             } },
              { "Red", "civ", {
-                "#(argb,115,5,5)color(0,1,0,1)"
+                "#(argb,8,8,3)color(1,0.176471,0.176471,1.0,CO)"
+            } },
+             { "Pink", "civ", {
+                "#(argb,8,8,3)color(1,0.501961,0.752941,1.0,CO)"
             } },
              { "Orange", "civ", {
-                "#(argb,231,96,5)color(0,1,0,1)"
+                "#(argb,8,8,3)color(1,0.501961,0,1.0,CO)"
             } }
 		};
 	};
@@ -1870,22 +1975,34 @@ class CfgVehicles {
 		chopShop = 16000;
 		textures[] = {
 			 { "Black", "civ", {
-                "#(argb,0,0,0)color(0,1,0,1)"
+                " #(argb,8,8,3)color(0,0,0,1.0,CO)"
             } },
              { "White", "civ", {
-                "#(argb,255,255,255)color(0,1,0,1)"
+                "#(argb,8,8,3)color(1,1,1,1.0,CO)"
             } },
              { "Blue", "civ", {
-                "#(argb,0,23,82)color(0,1,0,1)"
+                "#(argb,8,8,3)color(0,0,0.627451,1.0,CO)"
+            } },
+             { "Purple", "civ", {
+                "#(argb,8,8,3)color(0.705882,0.0470588,0.603922,1.0,CO"
             } },
              { "Green", "civ", {
-                "#(argb,8,71,0)color(0,1,0,1)"
+                "#(argb,8,8,3)color(0,0.501961,0,1.0,CO)"
+            } },
+             { "Lime Green", "civ", {
+                "#(argb,8,8,3)color(0,1,0,1.0,CO)"
+            } },
+             { "Dark Red", "civ", {
+                "#(argb,8,8,3)color(0.501961,0,0,1.0,CO)"
             } },
              { "Red", "civ", {
-                "#(argb,115,5,5)color(0,1,0,1)"
+                "#(argb,8,8,3)color(1,0.176471,0.176471,1.0,CO)"
+            } },
+             { "Pink", "civ", {
+                "#(argb,8,8,3)color(1,0.501961,0.752941,1.0,CO)"
             } },
              { "Orange", "civ", {
-                "#(argb,231,96,5)color(0,1,0,1)"
+                "#(argb,8,8,3)color(1,0.501961,0,1.0,CO)"
             } }
 		};
 	};
@@ -1897,22 +2014,34 @@ class CfgVehicles {
 		chopShop = 16000;
 		textures[] = {
 			 { "Black", "civ", {
-                "#(argb,0,0,0)color(0,1,0,1)"
+                " #(argb,8,8,3)color(0,0,0,1.0,CO)"
             } },
              { "White", "civ", {
-                "#(argb,255,255,255)color(0,1,0,1)"
+                "#(argb,8,8,3)color(1,1,1,1.0,CO)"
             } },
              { "Blue", "civ", {
-                "#(argb,0,23,82)color(0,1,0,1)"
+                "#(argb,8,8,3)color(0,0,0.627451,1.0,CO)"
+            } },
+             { "Purple", "civ", {
+                "#(argb,8,8,3)color(0.705882,0.0470588,0.603922,1.0,CO"
             } },
              { "Green", "civ", {
-                "#(argb,8,71,0)color(0,1,0,1)"
+                "#(argb,8,8,3)color(0,0.501961,0,1.0,CO)"
+            } },
+             { "Lime Green", "civ", {
+                "#(argb,8,8,3)color(0,1,0,1.0,CO)"
+            } },
+             { "Dark Red", "civ", {
+                "#(argb,8,8,3)color(0.501961,0,0,1.0,CO)"
             } },
              { "Red", "civ", {
-                "#(argb,115,5,5)color(0,1,0,1)"
+                "#(argb,8,8,3)color(1,0.176471,0.176471,1.0,CO)"
+            } },
+             { "Pink", "civ", {
+                "#(argb,8,8,3)color(1,0.501961,0.752941,1.0,CO)"
             } },
              { "Orange", "civ", {
-                "#(argb,231,96,5)color(0,1,0,1)"
+                "#(argb,8,8,3)color(1,0.501961,0,1.0,CO)"
             } }
 		};
 	};
@@ -1924,22 +2053,34 @@ class CfgVehicles {
 		chopShop = 16000;
 		textures[] = {
 			 { "Black", "civ", {
-                "#(argb,0,0,0)color(0,1,0,1)"
+                " #(argb,8,8,3)color(0,0,0,1.0,CO)"
             } },
              { "White", "civ", {
-                "#(argb,255,255,255)color(0,1,0,1)"
+                "#(argb,8,8,3)color(1,1,1,1.0,CO)"
             } },
              { "Blue", "civ", {
-                "#(argb,0,23,82)color(0,1,0,1)"
+                "#(argb,8,8,3)color(0,0,0.627451,1.0,CO)"
+            } },
+             { "Purple", "civ", {
+                "#(argb,8,8,3)color(0.705882,0.0470588,0.603922,1.0,CO"
             } },
              { "Green", "civ", {
-                "#(argb,8,71,0)color(0,1,0,1)"
+                "#(argb,8,8,3)color(0,0.501961,0,1.0,CO)"
+            } },
+             { "Lime Green", "civ", {
+                "#(argb,8,8,3)color(0,1,0,1.0,CO)"
+            } },
+             { "Dark Red", "civ", {
+                "#(argb,8,8,3)color(0.501961,0,0,1.0,CO)"
             } },
              { "Red", "civ", {
-                "#(argb,115,5,5)color(0,1,0,1)"
+                "#(argb,8,8,3)color(1,0.176471,0.176471,1.0,CO)"
+            } },
+             { "Pink", "civ", {
+                "#(argb,8,8,3)color(1,0.501961,0.752941,1.0,CO)"
             } },
              { "Orange", "civ", {
-                "#(argb,231,96,5)color(0,1,0,1)"
+                "#(argb,8,8,3)color(1,0.501961,0,1.0,CO)"
             } }
 		};
 	};
@@ -3900,22 +4041,34 @@ class CfgVehicles {
 		chopShop = 126000;
 		textures[] = {
 			 { "Black", "civ", {
-                "#(argb,0,0,0)color(0,1,0,1)"
+                " #(argb,8,8,3)color(0,0,0,1.0,CO)"
             } },
              { "White", "civ", {
-                "#(argb,255,255,255)color(0,1,0,1)"
+                "#(argb,8,8,3)color(1,1,1,1.0,CO)"
             } },
              { "Blue", "civ", {
-                "#(argb,0,23,82)color(0,1,0,1)"
+                "#(argb,8,8,3)color(0,0,0.627451,1.0,CO)"
+            } },
+             { "Purple", "civ", {
+                "#(argb,8,8,3)color(0.705882,0.0470588,0.603922,1.0,CO"
             } },
              { "Green", "civ", {
-                "#(argb,8,71,0)color(0,1,0,1)"
+                "#(argb,8,8,3)color(0,0.501961,0,1.0,CO)"
+            } },
+             { "Lime Green", "civ", {
+                "#(argb,8,8,3)color(0,1,0,1.0,CO)"
+            } },
+             { "Dark Red", "civ", {
+                "#(argb,8,8,3)color(0.501961,0,0,1.0,CO)"
             } },
              { "Red", "civ", {
-                "#(argb,115,5,5)color(0,1,0,1)"
+                "#(argb,8,8,3)color(1,0.176471,0.176471,1.0,CO)"
+            } },
+             { "Pink", "civ", {
+                "#(argb,8,8,3)color(1,0.501961,0.752941,1.0,CO)"
             } },
              { "Orange", "civ", {
-                "#(argb,231,96,5)color(0,1,0,1)"
+                "#(argb,8,8,3)color(1,0.501961,0,1.0,CO)"
             } }
 		};
 	};
@@ -3927,22 +4080,34 @@ class CfgVehicles {
 		chopShop = 126000;
 		textures[] = {
 			 { "Black", "civ", {
-                "#(argb,0,0,0)color(0,1,0,1)"
+                " #(argb,8,8,3)color(0,0,0,1.0,CO)"
             } },
              { "White", "civ", {
-                "#(argb,255,255,255)color(0,1,0,1)"
+                "#(argb,8,8,3)color(1,1,1,1.0,CO)"
             } },
              { "Blue", "civ", {
-                "#(argb,0,23,82)color(0,1,0,1)"
+                "#(argb,8,8,3)color(0,0,0.627451,1.0,CO)"
+            } },
+             { "Purple", "civ", {
+                "#(argb,8,8,3)color(0.705882,0.0470588,0.603922,1.0,CO"
             } },
              { "Green", "civ", {
-                "#(argb,8,71,0)color(0,1,0,1)"
+                "#(argb,8,8,3)color(0,0.501961,0,1.0,CO)"
+            } },
+             { "Lime Green", "civ", {
+                "#(argb,8,8,3)color(0,1,0,1.0,CO)"
+            } },
+             { "Dark Red", "civ", {
+                "#(argb,8,8,3)color(0.501961,0,0,1.0,CO)"
             } },
              { "Red", "civ", {
-                "#(argb,115,5,5)color(0,1,0,1)"
+                "#(argb,8,8,3)color(1,0.176471,0.176471,1.0,CO)"
+            } },
+             { "Pink", "civ", {
+                "#(argb,8,8,3)color(1,0.501961,0.752941,1.0,CO)"
             } },
              { "Orange", "civ", {
-                "#(argb,231,96,5)color(0,1,0,1)"
+                "#(argb,8,8,3)color(1,0.501961,0,1.0,CO)"
             } }
 		};
 	};
@@ -4570,22 +4735,34 @@ class CfgVehicles {
 		chopShop = 42000;
 		textures[] = {
 			 { "Black", "civ", {
-                "#(argb,0,0,0)color(0,1,0,1)"
+                " #(argb,8,8,3)color(0,0,0,1.0,CO)"
             } },
              { "White", "civ", {
-                "#(argb,255,255,255)color(0,1,0,1)"
+                "#(argb,8,8,3)color(1,1,1,1.0,CO)"
             } },
              { "Blue", "civ", {
-                "#(argb,0,23,82)color(0,1,0,1)"
+                "#(argb,8,8,3)color(0,0,0.627451,1.0,CO)"
+            } },
+             { "Purple", "civ", {
+                "#(argb,8,8,3)color(0.705882,0.0470588,0.603922,1.0,CO"
             } },
              { "Green", "civ", {
-                "#(argb,8,71,0)color(0,1,0,1)"
+                "#(argb,8,8,3)color(0,0.501961,0,1.0,CO)"
+            } },
+             { "Lime Green", "civ", {
+                "#(argb,8,8,3)color(0,1,0,1.0,CO)"
+            } },
+             { "Dark Red", "civ", {
+                "#(argb,8,8,3)color(0.501961,0,0,1.0,CO)"
             } },
              { "Red", "civ", {
-                "#(argb,115,5,5)color(0,1,0,1)"
+                "#(argb,8,8,3)color(1,0.176471,0.176471,1.0,CO)"
+            } },
+             { "Pink", "civ", {
+                "#(argb,8,8,3)color(1,0.501961,0.752941,1.0,CO)"
             } },
              { "Orange", "civ", {
-                "#(argb,231,96,5)color(0,1,0,1)"
+                "#(argb,8,8,3)color(1,0.501961,0,1.0,CO)"
             } },
 			{ "Sport 1", "civ", {
                 "\ivory_c\data\bentley_con_livery01.paa"
@@ -4782,22 +4959,34 @@ class CfgVehicles {
 		chopShop = 36000;
 		textures[] = {
 			 { "Black", "civ", {
-                "#(argb,0,0,0)color(0,1,0,1)"
+                " #(argb,8,8,3)color(0,0,0,1.0,CO)"
             } },
              { "White", "civ", {
-                "#(argb,255,255,255)color(0,1,0,1)"
+                "#(argb,8,8,3)color(1,1,1,1.0,CO)"
             } },
              { "Blue", "civ", {
-                "#(argb,0,23,82)color(0,1,0,1)"
+                "#(argb,8,8,3)color(0,0,0.627451,1.0,CO)"
+            } },
+             { "Purple", "civ", {
+                "#(argb,8,8,3)color(0.705882,0.0470588,0.603922,1.0,CO"
             } },
              { "Green", "civ", {
-                "#(argb,8,71,0)color(0,1,0,1)"
+                "#(argb,8,8,3)color(0,0.501961,0,1.0,CO)"
+            } },
+             { "Lime Green", "civ", {
+                "#(argb,8,8,3)color(0,1,0,1.0,CO)"
+            } },
+             { "Dark Red", "civ", {
+                "#(argb,8,8,3)color(0.501961,0,0,1.0,CO)"
             } },
              { "Red", "civ", {
-                "#(argb,115,5,5)color(0,1,0,1)"
+                "#(argb,8,8,3)color(1,0.176471,0.176471,1.0,CO)"
+            } },
+             { "Pink", "civ", {
+                "#(argb,8,8,3)color(1,0.501961,0.752941,1.0,CO)"
             } },
              { "Orange", "civ", {
-                "#(argb,231,96,5)color(0,1,0,1)"
+                "#(argb,8,8,3)color(1,0.501961,0,1.0,CO)"
             } }
 		};
 	};
@@ -4949,22 +5138,34 @@ class CfgVehicles {
 		chopShop = 13800;
 		textures[] = {
 			 { "Black", "civ", {
-                "#(argb,0,0,0)color(0,1,0,1)"
+                " #(argb,8,8,3)color(0,0,0,1.0,CO)"
             } },
              { "White", "civ", {
-                "#(argb,255,255,255)color(0,1,0,1)"
+                "#(argb,8,8,3)color(1,1,1,1.0,CO)"
             } },
              { "Blue", "civ", {
-                "#(argb,0,23,82)color(0,1,0,1)"
+                "#(argb,8,8,3)color(0,0,0.627451,1.0,CO)"
+            } },
+             { "Purple", "civ", {
+                "#(argb,8,8,3)color(0.705882,0.0470588,0.603922,1.0,CO"
             } },
              { "Green", "civ", {
-                "#(argb,8,71,0)color(0,1,0,1)"
+                "#(argb,8,8,3)color(0,0.501961,0,1.0,CO)"
+            } },
+             { "Lime Green", "civ", {
+                "#(argb,8,8,3)color(0,1,0,1.0,CO)"
+            } },
+             { "Dark Red", "civ", {
+                "#(argb,8,8,3)color(0.501961,0,0,1.0,CO)"
             } },
              { "Red", "civ", {
-                "#(argb,115,5,5)color(0,1,0,1)"
+                "#(argb,8,8,3)color(1,0.176471,0.176471,1.0,CO)"
+            } },
+             { "Pink", "civ", {
+                "#(argb,8,8,3)color(1,0.501961,0.752941,1.0,CO)"
             } },
              { "Orange", "civ", {
-                "#(argb,231,96,5)color(0,1,0,1)"
+                "#(argb,8,8,3)color(1,0.501961,0,1.0,CO)"
             } },
 			{"Monster", "civ", {
 				"\ivory_wrx\data\monster.paa"
