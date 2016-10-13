@@ -599,22 +599,25 @@ class CfgVehicles {
 		chopShop = 36000;
 		textures[] = {
 			 { "Black", "civ", {
-                "#(argb,0,0,0)color(0,1,0,1)"
+                " #(argb,8,8,3)color(0,0,0,1.0,CO)"
             } },
              { "White", "civ", {
-                "#(argb,255,255,255)color(0,1,0,1)"
+                "#(argb,8,8,3)color(1,1,1,1.0,CO)"
             } },
              { "Blue", "civ", {
-                "#(argb,0,23,82)color(0,1,0,1)"
+                "#(argb,8,8,3)color(0,0,0.627451,1.0,CO)"
             } },
              { "Green", "civ", {
-                "#(argb,8,71,0)color(0,1,0,1)"
+                "#(argb,8,8,3)color(0,0.501961,0,1.0,CO)"
+            } },
+             { "Lime Green", "civ", {
+                "#(argb,8,8,3)color(0,1,0,1.0,CO)"
             } },
              { "Red", "civ", {
-                "#(argb,115,5,5)color(0,1,0,1)"
+                "#(argb,8,8,3)color(0.501961,0,0,1.0,CO)"
             } },
              { "Orange", "civ", {
-                "#(argb,231,96,5)color(0,1,0,1)"
+                "#(argb,8,8,3)color(1,0.501961,0,1.0,CO)"
             } }
 		};
 	};
