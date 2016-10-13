@@ -1,6 +1,6 @@
 author = "The SingularityRP Dev Team";
 onLoadName = "SingularityRP V2.0";
-onLoadMission = "An RPG game mode developed by SingularityRP";
+onLoadMission = "An RPG game mode developed by SingularityRP Dev Team.";
 loadScreen = "textures\loadingsingularity.paa";
 joinUnassigned = 1;
 respawn = BASE;

@@ -1652,7 +1652,7 @@ class CfgVehicles {
 		chopShop = 17400;
 		textures[] = {};
 	};
-		class Mrshounka_Touareg_jaune {
+		class ivory_gti {
 		vItemSpace = 40;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 28275, 2500, 2500, 2500 };
