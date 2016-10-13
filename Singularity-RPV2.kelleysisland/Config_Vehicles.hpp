@@ -4788,7 +4788,7 @@ class CfgVehicles {
             } },
              { "Green", "civ", {
                 "#(argb,8,71,0)color(0,1,0,1)"
-            } }
+            } },
              { "Red", "civ", {
                 "#(argb,115,5,5)color(0,1,0,1)"
             } },
