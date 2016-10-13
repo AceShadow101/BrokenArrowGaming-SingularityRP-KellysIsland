@@ -55,6 +55,7 @@ class CarShops {
 			{ "shounka_buggy_violet", 33000, "driver" },
 			{ "Mrshounka_Vandura_civ_noir", 60000, "driving" },
 			{ "ivory_elise", 70000, "driving" }
+		};
 	};
 	
 	class bike_car {
@@ -1350,7 +1351,7 @@ class CfgVehicles {
 		chopShop = 66000;
 		textures[] = {};
 	};
-		class urbanized_LaFerraari_pink {
+		class urbanized_LaFerrari_pink {
 		vItemSpace = 20;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 107250, 2500, 2500, 2500 };
@@ -1358,7 +1359,7 @@ class CfgVehicles {
 		chopShop = 66000;
 		textures[] = {};
 	};
-		class urbanized_LaFerraari_purple {
+		class urbanized_LaFerrari_purple {
 		vItemSpace = 20;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 107250, 2500, 2500, 2500 };
@@ -1366,7 +1367,7 @@ class CfgVehicles {
 		chopShop = 66000;
 		textures[] = {};
 	};
-		class urbanized_LaFerraari_red {
+		class urbanized_LaFerrari_red {
 		vItemSpace = 20;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 107250, 2500, 2500, 2500 };
@@ -1374,7 +1375,7 @@ class CfgVehicles {
 		chopShop = 66000;
 		textures[] = {};
 	};
-		class urbanized_LaFerraari_white {
+		class urbanized_LaFerrari_white {
 		vItemSpace = 20;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 107250, 2500, 2500, 2500 };
@@ -1382,7 +1383,7 @@ class CfgVehicles {
 		chopShop = 66000;
 		textures[] = {};
 	};
-		class urbanized_LaFerraari_yellow {
+		class urbanized_LaFerrari_yellow {
 		vItemSpace = 20;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 107250, 2500, 2500, 2500 };
@@ -1390,7 +1391,7 @@ class CfgVehicles {
 		chopShop = 66000;
 		textures[] = {};
 	};
-		class urbanized_LaFerraari_black {
+		class urbanized_LaFerrari_black {
 		vItemSpace = 20;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 107250, 2500, 2500, 2500 };
@@ -1398,7 +1399,7 @@ class CfgVehicles {
 		chopShop = 66000;
 		textures[] = {};
 	};
-		class urbanized_LaFerraari_blue {
+		class urbanized_LaFerrari_blue {
 		vItemSpace = 20;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 107250, 2500, 2500, 2500 };
@@ -1406,7 +1407,7 @@ class CfgVehicles {
 		chopShop = 66000;
 		textures[] = {};
 	};
-		class urbanized_LaFerraari_darkred {
+		class urbanized_LaFerrari_darkred {
 		vItemSpace = 20;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 107250, 2500, 2500, 2500 };
@@ -1414,7 +1415,7 @@ class CfgVehicles {
 		chopShop = 66000;
 		textures[] = {};
 	};
-		class urbanized_LaFerraari_hotpink {
+		class urbanized_LaFerrari_hotpink {
 		vItemSpace = 20;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 107250, 2500, 2500, 2500 };
@@ -1422,7 +1423,7 @@ class CfgVehicles {
 		chopShop = 66000;
 		textures[] = {};
 	};
-		class urbanized_LaFerraari_lime {
+		class urbanized_LaFerrari_lime {
 		vItemSpace = 20;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 107250, 2500, 2500, 2500 };
@@ -1430,7 +1431,7 @@ class CfgVehicles {
 		chopShop = 66000;
 		textures[] = {};
 	};
-		class urbanized_LaFerraari_orange {
+		class urbanized_LaFerrari_orange {
 		vItemSpace = 20;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 107250, 2500, 2500, 2500 };
@@ -1438,7 +1439,7 @@ class CfgVehicles {
 		chopShop = 66000;
 		textures[] = {};
 	};
-		class urbanized_LaFerraari_black_S {
+		class urbanized_LaFerrari_black_S {
 		vItemSpace = 20;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 107250, 2500, 2500, 2500 };
@@ -1446,7 +1447,7 @@ class CfgVehicles {
 		chopShop = 66000;
 		textures[] = {};
 	};
-		class urbanized_LaFerraari_blue_S {
+		class urbanized_LaFerrari_blue_S {
 		vItemSpace = 20;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 107250, 2500, 2500, 2500 };
@@ -1454,7 +1455,7 @@ class CfgVehicles {
 		chopShop = 66000;
 		textures[] = {};
 	};
-		class urbanized_LaFerraari_lime_S {
+		class urbanized_LaFerrari_lime_S {
 		vItemSpace = 20;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 107250, 2500, 2500, 2500 };
