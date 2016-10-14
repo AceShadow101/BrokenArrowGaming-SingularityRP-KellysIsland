@@ -361,6 +361,8 @@ class AddonsMetaData
 		{
 			className="task_force_radio_items";
 			name="task_force_radio_items";
+			author="[TF]Nkey";
+			url="https://github.com/michail-nikolaev/task-force-arma-3-radio";
 		};
 		class Item35
 		{
@@ -481,24 +483,6 @@ class CustomAttributes
 						type[]=
 						{
 							"ARRAY"
-						};
-					};
-					class value
-					{
-						items=1;
-						class Item0
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"STRING"
-									};
-								};
-								value="None";
-							};
 						};
 					};
 				};
@@ -2001,7 +1985,7 @@ class Mission
 			position[]={3771.9014,15,3099.6274};
 			name="medic_air_1";
 			type="Empty";
-			angle=98.339104;
+			angle=98.339096;
 			id=115;
 		};
 		class Item115
@@ -10488,7 +10472,7 @@ class Mission
 			};
 			id=623;
 			type="FlagPole_F";
-			atlOffset=0.0015182495;
+			atlOffset=0.0014743805;
 		};
 		class Item615
 		{
@@ -10508,7 +10492,7 @@ class Mission
 			};
 			id=624;
 			type="FlagPole_F";
-			atlOffset=0.00014686584;
+			atlOffset=0.00010299683;
 		};
 		class Item616
 		{
@@ -10527,7 +10511,6 @@ class Mission
 			};
 			id=625;
 			type="FlagPole_F";
-			atlOffset=4.3869019e-005;
 		};
 		class Item617
 		{
@@ -10547,7 +10530,7 @@ class Mission
 			};
 			id=626;
 			type="FlagPole_F";
-			atlOffset=0.00015592575;
+			atlOffset=0.00011205673;
 		};
 		class Item618
 		{
@@ -25628,7 +25611,6 @@ class Mission
 			};
 			id=1048;
 			type="Flag_US_F";
-			atlOffset=4.3869019e-005;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -25670,7 +25652,6 @@ class Mission
 			};
 			id=1049;
 			type="Flag_US_F";
-			atlOffset=4.3869019e-005;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -25712,7 +25693,6 @@ class Mission
 			};
 			id=1050;
 			type="Flag_US_F";
-			atlOffset=4.3869019e-005;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -57377,6 +57357,7 @@ class Mission
 			};
 			id=1811;
 			type="Land_ConcretePipe_F";
+			atlOffset=0.099431038;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -63084,7 +63065,7 @@ class Mission
 			};
 			id=2545;
 			type="Land_RattanChair_01_F";
-			atlOffset=0.011111259;
+			atlOffset=0.0144701;
 		};
 		class Item1956
 		{
@@ -63103,7 +63084,7 @@ class Mission
 			};
 			id=2546;
 			type="Land_RattanChair_01_F";
-			atlOffset=0.0040950775;
+			atlOffset=0.0074539185;
 		};
 		class Item1957
 		{
@@ -66576,7 +66557,7 @@ class Mission
 			};
 			id=2714;
 			type="Land_RattanChair_01_F";
-			atlOffset=0.011820793;
+			atlOffset=0.015179634;
 		};
 		class Item2102
 		{
@@ -66595,7 +66576,7 @@ class Mission
 			};
 			id=2715;
 			type="Land_RattanChair_01_F";
-			atlOffset=0.0060911179;
+			atlOffset=0.0094499588;
 		};
 		class Item2103
 		{
@@ -66614,7 +66595,7 @@ class Mission
 			};
 			id=2716;
 			type="Land_RattanChair_01_F";
-			atlOffset=0.20395088;
+			atlOffset=0.20730972;
 		};
 		class Item2104
 		{
@@ -69660,7 +69641,6 @@ class Mission
 			};
 			id=2969;
 			type="Flag_US_F";
-			atlOffset=4.3869019e-005;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -69846,7 +69826,7 @@ class Mission
 			};
 			id=2978;
 			type="Land_ConcretePipe_F";
-			atlOffset=-9.5367432e-007;
+			atlOffset=0.10103989;
 		};
 		class Item2275
 		{
@@ -70624,7 +70604,7 @@ class Mission
 			};
 			id=3020;
 			type="Land_ConcretePipe_F";
-			atlOffset=1.8119812e-005;
+			atlOffset=0.10299969;
 		};
 		class Item2317
 		{
@@ -76837,7 +76817,6 @@ class Mission
 			};
 			id=3191;
 			type="Flag_US_F";
-			atlOffset=4.3869019e-005;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -78774,7 +78753,6 @@ class Mission
 			};
 			id=3238;
 			type="Flag_US_F";
-			atlOffset=4.3869019e-005;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -80292,7 +80270,6 @@ class Mission
 			};
 			id=3462;
 			type="Flag_US_F";
-			atlOffset=4.3869019e-005;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -85744,6 +85721,7 @@ class Mission
 			};
 			id=3621;
 			type="Land_ConcretePipe_F";
+			atlOffset=0.099431038;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -85785,6 +85763,7 @@ class Mission
 			};
 			id=3622;
 			type="Land_ConcretePipe_F";
+			atlOffset=0.099431038;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -85826,6 +85805,7 @@ class Mission
 			};
 			id=3623;
 			type="Land_ConcretePipe_F";
+			atlOffset=0.099430084;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -86364,7 +86344,7 @@ class Mission
 			};
 			id=3636;
 			type="Land_Pallet_vertical_F";
-			atlOffset=0.01447773;
+			atlOffset=0.026839256;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -89204,7 +89184,7 @@ class Mission
 			};
 			id=3768;
 			type="Flag_US_F";
-			atlOffset=0.00028514862;
+			atlOffset=0.0002412796;
 		};
 		class Item2867
 		{
@@ -93317,7 +93297,7 @@ class Mission
 					};
 					id=3996;
 					type="C_man_polo_3_F";
-					atlOffset=0.22370911;
+					atlOffset=0.056406021;
 				};
 				class Item24
 				{
@@ -94372,6 +94352,7 @@ class Mission
 						angles[]={0,3.9394174,0};
 					};
 					side="Civilian";
+					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
@@ -94379,7 +94360,6 @@ class Mission
 					};
 					id=4037;
 					type="C_man_p_fugitive_F";
-					atlOffset=1.2916336;
 				};
 				class Item64
 				{
@@ -111058,6 +111038,7 @@ class Mission
 			};
 			id=9855;
 			type="Land_FieldToilet_F";
+			atlOffset=1.9073486e-006;
 		};
 		class Item3517
 		{
@@ -111783,7 +111764,7 @@ class Mission
 			};
 			id=9918;
 			type="Land_ConcretePipe_F";
-			atlOffset=-0.00010681152;
+			atlOffset=0.099821091;
 		};
 		class Item3554
 		{
@@ -115671,7 +115652,6 @@ class Mission
 			};
 			id=10172;
 			type="Flag_US_F";
-			atlOffset=4.3869019e-005;
 		};
 		class Item3750
 		{
@@ -115688,7 +115668,6 @@ class Mission
 			};
 			id=10173;
 			type="Flag_US_F";
-			atlOffset=4.3869019e-005;
 		};
 		class Item3751
 		{
@@ -116337,7 +116316,7 @@ class Mission
 			};
 			id=10220;
 			type="Land_ConcretePipe_F";
-			atlOffset=-0.01109314;
+			atlOffset=0.08836937;
 		};
 		class Item3790
 		{
@@ -116354,7 +116333,7 @@ class Mission
 			};
 			id=10221;
 			type="Land_ConcretePipe_F";
-			atlOffset=0.0022230148;
+			atlOffset=0.10202789;
 		};
 		class Item3791
 		{
@@ -124456,7 +124435,7 @@ class Mission
 			};
 			id=10733;
 			type="Flag_US_F";
-			atlOffset=4.1246414e-005;
+			atlOffset=-2.6226044e-006;
 		};
 		class Item4241
 		{
@@ -126129,7 +126108,7 @@ class Mission
 			};
 			id=10947;
 			type="Land_FieldToilet_F";
-			atlOffset=-0.0095357895;
+			atlOffset=2.8610229e-006;
 		};
 		class Item4311
 		{
@@ -126935,7 +126914,6 @@ class Mission
 			};
 			id=11021;
 			type="Flag_US_F";
-			atlOffset=4.3869019e-005;
 		};
 		class Item4362
 		{
