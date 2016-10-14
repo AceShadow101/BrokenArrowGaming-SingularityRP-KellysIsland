@@ -4,7 +4,6 @@ class DeathScreen
 	name = "Life_Death_Screen";
 	movingEnabled = false;
 	enableSimulation = true;
-	disableSerialization; 
 	
 	class controlsBackground
 	{
