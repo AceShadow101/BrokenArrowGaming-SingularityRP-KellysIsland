@@ -468,18 +468,54 @@ class CarShops {
 	class civ_air {
 		side = "civ";
 		vehicles[] = {
-			{ "ARMSCor_A109_Civ", 250000, "pilot" },
+			{ "sab_FAAllegro", 50000, "pilot" },
+			{ "sab_FAAllegro_2", 50000, "pilot" },
+			{ "sab_FAAllegro_3", 50000, "pilot" },
+			{ "sab_FAAllegro_4", 50000, "pilot" },
+			{ "sab_FAAllegro_5", 50000, "pilot" },
+			{ "C_Heli_light_01_red_F", 60000, "pilot" },
+			{ "C_Heli_light_01_blue_F", 60000, "pilot" },
+			{ "sab_l19", 60000, "pilot" },
+			{ "sab_l19_2", 60000, "pilot" },
+			{ "sab_l19_3", 60000, "pilot" },
+			{ "sab_RobinDR400", 80000, "pilot" },
+			{ "sab_RobinDR400_2", 80000, "pilot" },
+			{ "sab_RobinDR400_3", 80000, "pilot" },
+			{ "sab_RobinDR400_4", 80000, "pilot" },
+			{ "sab_RobinDR400_5", 80000, "pilot" },
+			{ "sab_piper", 80000, "pilot" },
+			{ "sab_piper2", 80000, "pilot" },
+			{ "sab_piper3", 80000, "pilot" },
+			{ "sab_piper4", 80000, "pilot" },
+			{ "sab_piper5", 80000, "pilot" },
+			{ "c_plane_civil_01_F", 95000, "pilot" },
+			{ "I_c_plane_civil_01_F", 95000, "pilot" },
+			{ "c_plane_civil_01_racing_F", 100000, "pilot" },
+			{ "sab_camel_pro", 100000, "pilot" },
 			{ "dezkit_b206_hs", 150000, "pilot" },
 			{ "dezkit_b206_ls", 150000, "pilot" },
 			{ "dezkit_b206_fl", 170000, "pilot" },
 			{ "dezkit_b206_news", 180000, "pilot" },
-			{ "C_Heli_light_01_red_F", 50000, "pilot" },
-			{ "C_Heli_light_01_blue_F", 50000, "pilot" },
-			{ "O_Heli_Light_02_unarmed_F", 800000, "pilot" },
-			{ "UH1H_Closed", 400000, "pilot" },
-			{ "UH1N_Slick", 400000, "pilot" },
 			{ "I_Heli_light_03_unarmed_F", 200000, "pilot" },
-			{ "GNT_C185", 50000, "pilot" }
+			{ "sab_aeroc", 200000, "pilot" },
+			{ "sab_aeroc_2", 200000, "pilot" },
+			{ "sab_aeroc_3", 200000, "pilot" },
+			{ "ARMSCor_A109_Civ", 250000, "pilot" },
+			{ "sab_do228", 250000, "pilot" },
+			{ "sab_do228_2", 250000, "pilot" },
+			{ "sab_do228_3_1", 250000, "pilot" },
+			{ "sab_do228_3_2", 250000, "pilot" },
+			{ "sab_do228_4", 250000, "pilot" },
+			{ "sab_do228_5", 250000, "pilot" },
+			{ "O_Heli_Light_02_unarmed_F", 800000, "pilot" },
+			{ "sab_panther", 1000000, "pilot" },
+			{ "sab_fiat4", 1200000, "pilot" },
+			{ "sab_fiat5", 1200000, "pilot" },
+			{ "sab_alphajet12", 1500000, "pilot" },
+			{ "sab_alphajet10", 1500000, "pilot" },
+			{ "sab_alphajet13", 1500000, "pilot" },
+			{ "sab_alphajet9", 1500000, "pilot" },
+			{ "sab_alphajet11", 1500000, "pilot" }
 		};
 	};
 
@@ -510,6 +546,7 @@ class CarShops {
 		side = "cop";
 		vehicles[] = {
 			{ "B_Boat_Transport_01_F", 3000, "cg" },
+			{ "O_G_Boat_Transport_02_F", 3000, "cg" },
 			{ "C_Boat_Civil_01_police_F", 20000, "cg" },
 			{ "b_SDV_01_F", 20000, "cg" }
 		};
@@ -521,7 +558,8 @@ class CarShops {
 			{ "C_Rubberboat", 1000, "boat" },
 			{ "A3L_JetSki_Yellow", 5000, "boat" },
 			{ "C_Boat_Civil_01_F", 15000, "boat" },
-			{ "A3L_Ship", 35000, "boat" }
+			{ "A3L_Ship", 35000, "boat" },
+			{ "burnes_mk10_1", 500000, "boat" }
 		};
 	};
 };
@@ -3336,6 +3374,326 @@ class CfgVehicles {
 		chopShop = 12375;
 		textures[] = {};
 	};
+	class sab_FAAllegro {
+		vItemSpace = 40;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 2500, 2500, 14625, 2500 };
+		insurance = 2500;
+		chopShop = 12375;
+		textures[] = {};
+	};
+	class sab_FAAllegro_2 {
+		vItemSpace = 40;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 2500, 2500, 14625, 2500 };
+		insurance = 2500;
+		chopShop = 12375;
+		textures[] = {};
+	};
+	class sab_FAAllegro_3 {
+		vItemSpace = 40;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 2500, 2500, 14625, 2500 };
+		insurance = 2500;
+		chopShop = 12375;
+		textures[] = {};
+	};
+	class sab_FAAllegro_4 {
+		vItemSpace = 40;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 2500, 2500, 14625, 2500 };
+		insurance = 2500;
+		chopShop = 12375;
+		textures[] = {};
+	};
+	class sab_FAAllegro_5 {
+		vItemSpace = 40;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 2500, 2500, 14625, 2500 };
+		insurance = 2500;
+		chopShop = 12375;
+		textures[] = {};
+	};
+	class sab_l19 {
+		vItemSpace = 50;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 2500, 2500, 14625, 2500 };
+		insurance = 2500;
+		chopShop = 12375;
+		textures[] = {};
+	};
+	class sab_l19_2 {
+		vItemSpace = 50;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 2500, 2500, 14625, 2500 };
+		insurance = 2500;
+		chopShop = 12375;
+		textures[] = {};
+	};
+	class sab_l19_3 {
+		vItemSpace = 50;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 2500, 2500, 14625, 2500 };
+		insurance = 2500;
+		chopShop = 12375;
+		textures[] = {};
+	};
+	class sab_RobinDR400 {
+		vItemSpace = 50;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 2500, 2500, 14625, 2500 };
+		insurance = 2500;
+		chopShop = 12375;
+		textures[] = {};
+	};
+	class sab_RobinDR400_2 {
+		vItemSpace = 50;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 2500, 2500, 14625, 2500 };
+		insurance = 2500;
+		chopShop = 12375;
+		textures[] = {};
+	};
+	class sab_RobinDR400_3 {
+		vItemSpace = 50;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 2500, 2500, 14625, 2500 };
+		insurance = 2500;
+		chopShop = 12375;
+		textures[] = {};
+	};
+	class sab_RobinDR400_4 {
+		vItemSpace = 50;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 2500, 2500, 14625, 2500 };
+		insurance = 2500;
+		chopShop = 12375;
+		textures[] = {};
+	};
+	class sab_RobinDR400_5 {
+		vItemSpace = 50;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 2500, 2500, 14625, 2500 };
+		insurance = 2500;
+		chopShop = 12375;
+		textures[] = {};
+	};
+	class sab_piper {
+		vItemSpace = 65;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 2500, 2500, 14625, 2500 };
+		insurance = 2500;
+		chopShop = 12375;
+		textures[] = {};
+	};
+	class sab_piper2 {
+		vItemSpace = 65;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 2500, 2500, 14625, 2500 };
+		insurance = 2500;
+		chopShop = 12375;
+		textures[] = {};
+	};
+	class sab_piper3 {
+		vItemSpace = 65;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 2500, 2500, 14625, 2500 };
+		insurance = 2500;
+		chopShop = 12375;
+		textures[] = {};
+	};
+	class sab_piper4 {
+		vItemSpace = 65;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 2500, 2500, 14625, 2500 };
+		insurance = 2500;
+		chopShop = 12375;
+		textures[] = {};
+	};
+	class sab_piper5 {
+		vItemSpace = 65;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 2500, 2500, 14625, 2500 };
+		insurance = 2500;
+		chopShop = 12375;
+		textures[] = {};
+	};
+	class c_plane_civil_01_F {
+		vItemSpace = 75;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 2500, 2500, 14625, 2500 };
+		insurance = 2500;
+		chopShop = 12375;
+		textures[] = {};
+	};
+	class I_c_plane_civil_01_F {
+		vItemSpace = 75;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 2500, 2500, 14625, 2500 };
+		insurance = 2500;
+		chopShop = 12375;
+		textures[] = {};
+	};
+	class c_plane_civil_01_racing_F {
+		vItemSpace = 75;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 2500, 2500, 14625, 2500 };
+		insurance = 2500;
+		chopShop = 12375;
+		textures[] = {};
+	};
+	class sab_aeroc {
+		vItemSpace = 200;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 2500, 2500, 14625, 2500 };
+		insurance = 2500;
+		chopShop = 12375;
+		textures[] = {};
+	};
+	class sab_aeroc_2 {
+		vItemSpace = 200;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 2500, 2500, 14625, 2500 };
+		insurance = 2500;
+		chopShop = 12375;
+		textures[] = {};
+	};
+	class sab_aeroc_3 {
+		vItemSpace = 200;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 2500, 2500, 14625, 2500 };
+		insurance = 2500;
+		chopShop = 12375;
+		textures[] = {};
+	};
+	class burnes_mk10_1 {
+		vItemSpace = 300;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 2500, 2500, 14625, 2500 };
+		insurance = 2500;
+		chopShop = 12375;
+		textures[] = {};
+	};
+	class sab_do228 {
+		vItemSpace = 260;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 2500, 2500, 14625, 2500 };
+		insurance = 2500;
+		chopShop = 12375;
+		textures[] = {};
+	};
+	class sab_do228_2 {
+		vItemSpace = 260;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 2500, 2500, 14625, 2500 };
+		insurance = 2500;
+		chopShop = 12375;
+		textures[] = {};
+	};
+	class sab_do228_3_1 {
+		vItemSpace = 260;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 2500, 2500, 14625, 2500 };
+		insurance = 2500;
+		chopShop = 12375;
+		textures[] = {};
+	};
+	class sab_do228_3_2 {
+		vItemSpace = 260;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 2500, 2500, 14625, 2500 };
+		insurance = 2500;
+		chopShop = 12375;
+		textures[] = {};
+	};
+	class sab_do228_4 {
+		vItemSpace = 260;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 2500, 2500, 14625, 2500 };
+		insurance = 2500;
+		chopShop = 12375;
+		textures[] = {};
+	};
+	class sab_do228_5 {
+		vItemSpace = 260;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 2500, 2500, 14625, 2500 };
+		insurance = 2500;
+		chopShop = 12375;
+		textures[] = {};
+	};
+	class sab_camel_pro {
+		vItemSpace = 30;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 2500, 2500, 14625, 2500 };
+		insurance = 2500;
+		chopShop = 12375;
+		textures[] = {};
+	};
+	class sab_panther {
+		vItemSpace = 30;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 2500, 2500, 14625, 2500 };
+		insurance = 2500;
+		chopShop = 12375;
+		textures[] = {};
+	};
+	class sab_fiat4 {
+		vItemSpace = 30;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 2500, 2500, 14625, 2500 };
+		insurance = 2500;
+		chopShop = 12375;
+		textures[] = {};
+	};
+	class sab_fiat5 {
+		vItemSpace = 30;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 2500, 2500, 14625, 2500 };
+		insurance = 2500;
+		chopShop = 12375;
+		textures[] = {};
+	};
+	class sab_alphajet9 {
+		vItemSpace = 30;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 2500, 2500, 14625, 2500 };
+		insurance = 2500;
+		chopShop = 12375;
+		textures[] = {};
+	};
+	class sab_alphajet10 {
+		vItemSpace = 30;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 2500, 2500, 14625, 2500 };
+		insurance = 2500;
+		chopShop = 12375;
+		textures[] = {};
+	};
+	class sab_alphajet11 {
+		vItemSpace = 30;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 2500, 2500, 14625, 2500 };
+		insurance = 2500;
+		chopShop = 12375;
+		textures[] = {};
+	};
+	class sab_alphajet12 {
+		vItemSpace = 30;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 2500, 2500, 14625, 2500 };
+		insurance = 2500;
+		chopShop = 12375;
+		textures[] = {};
+	};
+	class sab_alphajet13 {
+		vItemSpace = 30;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 2500, 2500, 14625, 2500 };
+		insurance = 2500;
+		chopShop = 12375;
+		textures[] = {};
+	};
 	class Mrshounka_ducati_police_p {
 		vItemSpace = 15;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
@@ -3786,6 +4144,14 @@ class CfgVehicles {
 		textures[] = {};
 	};
 	class B_Boat_Transport_01_F {
+		vItemSpace = 60;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 2500, 2500, 2500, 2500 };
+		insurance = 2500;
+		chopShop = 1500;
+		textures[] = {};
+	};
+	class O_G_Boat_Transport_02_F {
 		vItemSpace = 60;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 2500, 2500, 2500, 2500 };
