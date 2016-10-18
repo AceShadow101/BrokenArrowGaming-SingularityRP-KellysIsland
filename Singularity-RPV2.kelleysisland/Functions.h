@@ -234,6 +234,8 @@ class Life_Client_Core
 		class LockCarSound {};
 		class seizeObjects {};
 		class purge {};
+		class uniformcolor {};
+		class updateClothing {};
 	};
 	
 	class Network

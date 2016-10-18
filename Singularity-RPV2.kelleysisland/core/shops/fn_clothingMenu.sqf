@@ -129,7 +129,7 @@ camDestroy life_shop_cam;
 life_clothing_filter = 0;
 if(isNil "life_clothesPurchased") exitWith {
 	life_clothing_purchase = [-1,-1,-1,-1,-1];
-	if(life_oldClothes != "") then {player addUniform life_oldClothes;} else {removeUniform player};
+	if(life_oldClothes != "") then {player addUniform life_oldClothes; [] call life_fnc_uniformcolor;} else {removeUniform player};
 	if(life_oldHat != "") then {player addHeadgear life_oldHat} else {removeHeadgear player;};
 	if(life_oldGlasses != "") then {player addGoggles life_oldGlasses;} else {removeGoggles player};
 	if(backpack player != "") then {
@@ -205,3 +205,5 @@ if((life_clothing_purchase select 4) == -1) then {
 
 life_clothing_purchase = [-1,-1,-1,-1,-1];
 [] call life_fnc_saveGear;
+[] call life_fnc_uniformcolor;
+[] call life_fnc_updateClothing;

@@ -28,3 +28,5 @@ switch (FETCH_CONST(life_medicLevel)) do
 waitUntil{!isNull (findDisplay 38500)}; //Wait for the spawn selection to be open.
 waitUntil{isNull (findDisplay 38500)}; //Wait for the spawn selection to be done.
 [] call life_fnc_placeablesInitMEDIC; //MY NAMES MAX AND IM A HERP DERP HOW TO INITILIATZSE SJALKFKJDSJLFSDKLJFDL HERP //dont delete this -killerty69
+[] call life_fnc_uniformcolor;
+[] call life_fnc_updateClothing;
