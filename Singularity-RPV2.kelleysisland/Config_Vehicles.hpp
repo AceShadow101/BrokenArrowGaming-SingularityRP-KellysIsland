@@ -34,6 +34,16 @@ class CarShops {
 			{ "Mrshounka_subaru08_grise", 23000, "driver" },
 			{ "Mrshounka_subaru08_jaune", 23000, "driver" },
 			{ "Mrshounka_subaru08_rouge", 23000, "driver" },
+			{ "MG_Honda_Civic_TypeR_04_Black", 23000, "driver" },
+			{ "MG_Honda_Civic_TypeR_04_Blue", 23000, "driver" },
+			{ "MG_Honda_Civic_TypeR_04_Red", 23000, "driver" },
+			{ "MG_Honda_Civic_TypeR_04_Silver", 23000, "driver" },
+			{ "MG_Honda_Civic_TypeR_04_Yellow", 23000, "driver" },
+			{ "MG_Honda_Civic_TypeR_04_Green", 23000, "driver" },
+			{ "MG_Honda_Civic_TypeR_04_White", 23000, "driver" },
+			{ "MG_Honda_Civic_TypeR_04_Pink", 23000, "driver" },
+			{ "MG_Honda_Civic_TypeR_04_Purple", 23000, "driver" },
+			{ "MG_Honda_Civic_TypeR_04_Whitecamo", 23000, "driver" },
 			{ "ivory_wrx", 23000, "driver" },
 			{ "ivory_evox", 23000, "driver" },
 			{ "ivory_r34", 23000, "driver" },
@@ -94,8 +104,17 @@ class CarShops {
 			{ "Jonzie_Viper", 70000, "driver" }, 
 			{ "ivory_c", 70000, "driver" }, 
 			{ "IVORY_REV", 110000, "driver" }, 
-			{ "ivory_lp560",150000, "driver" },
 			{ "ivory_lfa", 110000, "driver" },
+			{ "ivory_lp560",150000, "driver" },
+			{ "MG_Audi_R8_11_Black",160000, "driver" },
+			{ "MG_Audi_R8_11_Blue",160000, "driver" },
+			{ "MG_Audi_R8_11_Red",160000, "driver" },
+			{ "MG_Audi_R8_11_Silver",160000, "driver" },
+			{ "MG_Audi_R8_11_Yellow",160000, "driver" },
+			{ "MG_Audi_R8_11_Green",160000, "driver" },
+			{ "MG_Audi_R8_11_White",160000, "driver" },
+			{ "MG_Audi_R8_11_Pink",160000, "driver" },
+			{ "MG_Audi_R8_11_Purple",160000, "driver" },
 			{ "ivory_f1", 200000, "driver" },  
 			{ "ivory_mp4", 210000, "driver" },
 			{ "Mrshounka_pagani_c_noir", 250000, "driver" }, 
@@ -409,20 +428,17 @@ class CarShops {
 			{ "ivory_tractor", 7000, "trucking" }, 
 			{ "ivory_tractor2", 7000, "trucking" }, 
 			{ "A3L_Bus", 60000, "trucking" },
-			{ "A3L_SchoolBus", 60000, "trucking" },
 			{ "A3L_Towtruck", 60000, "trucking" },
 			{ "shounka_a3_spr_civ_noir", 60000, "trucking" },
+			{ "Jonzie_Transit", 100000, "trucking" },
+			{ "MG_AA_Tow_Truck_Black", 200000, "trucking" },
 			{ "shounka_a3_brinks_noir", 250000, "trucking" },
 			{ "shounka_a3_brinks_bleufonce", 250000, "trucking" },
-			{ "shounka_a3_renaultmagnum_f", 160000, "trucking" },
-			{ "shounka_ivceco_noir", 280000, "trucking" },
-			{ "shounka_ivceco_rouge", 280000, "trucking" },
-			{ "shounka_ivceco_bleufonce", 280000, "trucking" },
-			{ "Quiet_Man_TGX_petite", 160000, "trucking" },
-			{ "shounka_a3_dafxf_euro6_f", 150000, "trucking" },
-			{ "shounka_a3_mantgs", 150000, "trucking" },
-			{ "shounka_a3_mantgs_2_in_noir", 150000, "trucking" }
-		};
+			{ "MG_AA_Tow_Truck_Black", 250000, "trucking" },
+			{ "Jonzie_Western", 250000, "trucking" },
+			{ "Jonzie_Superliner", 280000, "trucking" },
+			{ "Jonzie_Curtain", 350000, "trucking" }
+
 	};
 
 	class reb_car {
@@ -868,6 +884,38 @@ class CfgVehicles {
 		chopShop = 10800;
 		textures[] = {};
 	};
+		class Jonzie_Western {
+		vItemSpace = 60;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 17550, 2500, 2500, 2500 };
+		insurance = 2500;
+		chopShop = 10800;
+		textures[] = {};
+	};
+		class Jonzie_Transit {
+		vItemSpace = 120;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 17550, 2500, 2500, 2500 };
+		insurance = 2500;
+		chopShop = 10800;
+		textures[] = {};
+	};
+		class Jonzie_Superliner {
+		vItemSpace = 60;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 17550, 2500, 2500, 2500 };
+		insurance = 2500;
+		chopShop = 10800;
+		textures[] = {};
+	};
+		class Jonzie_Curtain {
+		vItemSpace = 300;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 17550, 2500, 2500, 2500 };
+		insurance = 2500;
+		chopShop = 10800;
+		textures[] = {};
+	};
 		class Mrshounka_subaru08_noir {
 		vItemSpace = 60;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
@@ -901,6 +949,86 @@ class CfgVehicles {
 		textures[] = {};
 	};
 		class Mrshounka_subaru08_rouge {
+		vItemSpace = 60;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 22425, 2500, 2500, 2500 };
+		insurance = 2500;
+		chopShop = 13800;
+		textures[] = {};
+	};
+		class MG_Honda_Civic_TypeR_04_Black {
+		vItemSpace = 60;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 22425, 2500, 2500, 2500 };
+		insurance = 2500;
+		chopShop = 13800;
+		textures[] = {};
+	};
+		class MG_Honda_Civic_TypeR_04_Blue {
+		vItemSpace = 60;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 22425, 2500, 2500, 2500 };
+		insurance = 2500;
+		chopShop = 13800;
+		textures[] = {};
+	};
+		class MG_Honda_Civic_TypeR_04_Red {
+		vItemSpace = 60;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 22425, 2500, 2500, 2500 };
+		insurance = 2500;
+		chopShop = 13800;
+		textures[] = {};
+	};
+		class MG_Honda_Civic_TypeR_04_Silver {
+		vItemSpace = 60;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 22425, 2500, 2500, 2500 };
+		insurance = 2500;
+		chopShop = 13800;
+		textures[] = {};
+	};
+		class MG_Honda_Civic_TypeR_04_Yellow {
+		vItemSpace = 60;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 22425, 2500, 2500, 2500 };
+		insurance = 2500;
+		chopShop = 13800;
+		textures[] = {};
+	};
+		class MG_Honda_Civic_TypeR_04_Green {
+		vItemSpace = 60;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 22425, 2500, 2500, 2500 };
+		insurance = 2500;
+		chopShop = 13800;
+		textures[] = {};
+	};
+		class MG_Honda_Civic_TypeR_04_White {
+		vItemSpace = 60;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 22425, 2500, 2500, 2500 };
+		insurance = 2500;
+		chopShop = 13800;
+		textures[] = {};
+	};
+		class MG_Honda_Civic_TypeR_04_Pink {
+		vItemSpace = 60;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 22425, 2500, 2500, 2500 };
+		insurance = 2500;
+		chopShop = 13800;
+		textures[] = {};
+	};
+		class MG_Honda_Civic_TypeR_04_Purple {
+		vItemSpace = 60;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 22425, 2500, 2500, 2500 };
+		insurance = 2500;
+		chopShop = 13800;
+		textures[] = {};
+	};
+		class MG_Honda_Civic_TypeR_04_Whitecamo {
 		vItemSpace = 60;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 22425, 2500, 2500, 2500 };
@@ -2683,6 +2811,78 @@ class CfgVehicles {
 		textures[] = {};
 	};
 	class IVORY_LP560 {
+		vItemSpace = 60;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 152100, 2500, 2500, 2500 };
+		insurance = 2500;
+		chopShop = 93600;
+		textures[] = {};
+	};
+	class MG_Audi_R8_11_Black {
+		vItemSpace = 60;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 152100, 2500, 2500, 2500 };
+		insurance = 2500;
+		chopShop = 93600;
+		textures[] = {};
+	};
+	class MG_Audi_R8_11_Blue {
+		vItemSpace = 60;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 152100, 2500, 2500, 2500 };
+		insurance = 2500;
+		chopShop = 93600;
+		textures[] = {};
+	};
+	class MG_Audi_R8_11_Red {
+		vItemSpace = 60;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 152100, 2500, 2500, 2500 };
+		insurance = 2500;
+		chopShop = 93600;
+		textures[] = {};
+	};
+	class MG_Audi_R8_11_Silver {
+		vItemSpace = 60;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 152100, 2500, 2500, 2500 };
+		insurance = 2500;
+		chopShop = 93600;
+		textures[] = {};
+	};
+	class MG_Audi_R8_11_Yellow {
+		vItemSpace = 60;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 152100, 2500, 2500, 2500 };
+		insurance = 2500;
+		chopShop = 93600;
+		textures[] = {};
+	};
+	class MG_Audi_R8_11_Green {
+		vItemSpace = 60;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 152100, 2500, 2500, 2500 };
+		insurance = 2500;
+		chopShop = 93600;
+		textures[] = {};
+	};
+	class MG_Audi_R8_11_White {
+		vItemSpace = 60;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 152100, 2500, 2500, 2500 };
+		insurance = 2500;
+		chopShop = 93600;
+		textures[] = {};
+	};
+	class MG_Audi_R8_11_Pink {
+		vItemSpace = 60;
+		storageFee[] = { 1000, 1000, 1000, 1000 };
+		garageSell[] = { 152100, 2500, 2500, 2500 };
+		insurance = 2500;
+		chopShop = 93600;
+		textures[] = {};
+	};
+	class MG_Audi_R8_11_Purple {
 		vItemSpace = 60;
 		storageFee[] = { 1000, 1000, 1000, 1000 };
 		garageSell[] = { 152100, 2500, 2500, 2500 };
