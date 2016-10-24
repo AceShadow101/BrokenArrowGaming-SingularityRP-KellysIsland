@@ -73,37 +73,49 @@ class CfgSpawnPoints {
         };
 
         class Cop {
-            class Kavala {
-                displayName = "Kavala HQ";
+            class Union {
+                displayName = "Union City HQ";
                 spawnMarker = "cop_spawn_1";
                 icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
                 conditions = "";
             };
 
-            class Athira {
-                displayName = "Athira HQ";
-                spawnMarker = "cop_spawn_3";
+            class Jail {
+                displayName = "Erie County Jail";
+                spawnMarker = "cop_spawn_2";
                 icon = "\a3\ui_f\data\map\MapControl\fuelstation_ca.paa";
                 conditions = "";
             };
 
-            class Pyrgos {
-                displayName = "Pyrgos HQ";
-                spawnMarker = "cop_spawn_2";
+            class Unity {
+                displayName = "Unity Beach HQ";
+                spawnMarker = "cop_spawn_4";
                 icon = "\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa";
                 conditions = "";
             };
 
             class Air {
                 displayName = "Air HQ";
-                spawnMarker = "cop_spawn_4";
+                spawnMarker = "cop_spawn_3";
                 icon = "\a3\ui_f\data\map\Markers\NATO\b_air.paa";
                 conditions = "FETCH_CONST(life_coplevel) >= 2 && {license_cop_cAir}";
             };
 
-            class HW {
-                displayName = "HW Patrol";
+            class Dartmouth {
+                displayName = "Dartmouth Substation";
                 spawnMarker = "cop_spawn_5";
+                icon = "\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa";
+                conditions = "FETCH_CONST(life_coplevel) >= 3";
+            };
+            class Training {
+                displayName = "Training Grounds";
+                spawnMarker = "cop_spawn_6";
+                icon = "\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa";
+                conditions = "FETCH_CONST(life_coplevel) >= 3";
+            };
+            class Oceanview {
+                displayName = "Oceanview Substation";
+                spawnMarker = "cop_spawn_7";
                 icon = "\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa";
                 conditions = "FETCH_CONST(life_coplevel) >= 3";
             };
