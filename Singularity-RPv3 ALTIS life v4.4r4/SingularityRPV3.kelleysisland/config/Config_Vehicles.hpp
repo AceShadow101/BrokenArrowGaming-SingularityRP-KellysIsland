@@ -620,7 +620,7 @@ class LifeCfgVehicles {
 
     class Default {
         vItemSpace = -1;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = -1;
         textures[] = {};
     };
@@ -629,63 +629,63 @@ class LifeCfgVehicles {
 
     class B_Quadbike_01_F {
         vItemSpace = 5;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 2500;
         textures[] = {};
     };
 
     class A3L_Cooper_concept_black {
         vItemSpace = 30;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 7000;
         textures[] = {};
     };
 
     class A3L_Cooper_concept_blue {
         vItemSpace = 20;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 7000;
         textures[] = {};
     };
 
     class Mrshounka_a3_smart_civ_noir {
         vItemSpace = 20;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 7000;
         textures[] = {};
     };
 
     class Mrshounka_a3_smart_civ_bleu {
         vItemSpace = 20;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 7000;
         textures[] = {};
     };
 
     class civ_crown_black {
         vItemSpace = 50;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 15000;
         textures[] = {};
     };
 
     class civ_crown_blue {
         vItemSpace = 50;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 15000;
         textures[] = {};
     };
 
     class civ_crown_gray {
         vItemSpace = 50;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 15000;
         textures[] = {};
     };
 
     class IVORY_PRIUS {
         vItemSpace = 30;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 17000;
         textures[] = {
             { "Sport 1", "civ", {
@@ -705,175 +705,175 @@ class LifeCfgVehicles {
 
     class Mrshounka_corbillard_c_noir {
         vItemSpace = 60;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 18000;
         textures[] = {};
     };
 
     class Mrshounka_corbillard_c_bleufonce {
         vItemSpace = 60;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 18000;
         textures[] = {};
     };
 
     class Mrshounka_corbillard_c_violet {
         vItemSpace = 60;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 18000;
         textures[] = {};
     };
 
     class Mrshounka_corbillard_c_orange {
         vItemSpace = 60;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 18000;
         textures[] = {};
     };
 
     class Mrshounka_golfvi_noir {
         vItemSpace = 50;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 18000;
         textures[] = {};
     };
 
     class Mrshounka_golfvi_bleufonce {
         vItemSpace = 50;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 18000;
         textures[] = {};
     };
 
     class Mrshounka_golfvi_rouge {
         vItemSpace = 50;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 18000;
         textures[] = {};
     };
 
     class Mrshounka_golfvi_jaune {
         vItemSpace = 50;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 18000;
         textures[] = {};
     };
 
     class Mrshounka_golfvi_orange {
         vItemSpace = 50;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 18000;
         textures[] = {};
     };
 
     class Mrshounka_subaru08_noir {
         vItemSpace = 50;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 23000;
         textures[] = {};
     };
 
     class Mrshounka_subaru08_bleufonce {
         vItemSpace = 50;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 23000;
         textures[] = {};
     };
 
     class Mrshounka_subaru08_grise {
         vItemSpace = 50;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 23000;
         textures[] = {};
     };
 
     class Mrshounka_subaru08_jaune {
         vItemSpace = 50;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 23000;
         textures[] = {};
     };
 
     class Mrshounka_subaru08_rouge {
         vItemSpace = 50;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 23000;
         textures[] = {};
     };
 
     class MG_Honda_Civic_TypeR_04_Black {
         vItemSpace = 50;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 23000;
         textures[] = {};
     };
 
     class MG_Honda_Civic_TypeR_04_Blue {
         vItemSpace = 50;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 23000;
         textures[] = {};
     };
 
     class MG_Honda_Civic_TypeR_04_Red {
         vItemSpace = 50;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 23000;
         textures[] = {};
     };
 
     class MG_Honda_Civic_TypeR_04_Silver {
         vItemSpace = 50;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 23000;
         textures[] = {};
     };
 
     class MG_Honda_Civic_TypeR_04_Yellow {
         vItemSpace = 50;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 23000;
         textures[] = {};
     };
 
     class MG_Honda_Civic_TypeR_04_Green {
         vItemSpace = 50;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 23000;
         textures[] = {};
     };
 
     class MG_Honda_Civic_TypeR_04_White {
         vItemSpace = 50;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 23000;
         textures[] = {};
     };
 
     class MG_Honda_Civic_TypeR_04_Pink {
         vItemSpace = 50;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 23000;
         textures[] = {};
     };
 
     class MG_Honda_Civic_TypeR_04_Purple {
         vItemSpace = 50;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 23000;
         textures[] = {};
     };
 
     class MG_Honda_Civic_TypeR_04_Whitecamo {
         vItemSpace = 50;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 23000;
         textures[] = {};
     };
 
     class ivory_wrx {
         vItemSpace = 30;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 23000;
         textures[] = {
             { "Black", "civ", {
@@ -932,7 +932,7 @@ class LifeCfgVehicles {
 
     class ivory_evox {
         vItemSpace = 40;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 23000;
         textures[] = {
              { "Black", "civ", {
@@ -970,7 +970,7 @@ class LifeCfgVehicles {
 
     class ivory_supra {
         vItemSpace = 60;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 23000;
         textures[] = {
              { "Black", "civ", {
@@ -1008,7 +1008,7 @@ class LifeCfgVehicles {
 
     class ivory_isf {
         vItemSpace = 50;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 32000;
         textures[] = {
              { "Black", "civ", {
@@ -1046,14 +1046,14 @@ class LifeCfgVehicles {
 
     class Mrshounka_Vandura_civ_noir {
         vItemSpace = 90;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 60000;
         textures[] = {};
     };
 
     class ivory_elise {
         vItemSpace = 20;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 70000;
         textures[] = {
              { "Black", "civ", {
@@ -1093,56 +1093,56 @@ class LifeCfgVehicles {
 
     class Mrshounka_ducati_p_noir {
         vItemSpace = 5;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 15000;
         textures[] = {};
     };
 
     class Mrshounka_ducati_p_bf {
         vItemSpace = 5;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 15000;
         textures[] = {};
     };
 
     class Mrshounka_ducati_p_r {
         vItemSpace = 5;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 15000;
         textures[] = {};
     };
 
     class Mrshounka_ducati_p_j {
         vItemSpace = 5;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 15000;
         textures[] = {};
     };
 
     class Mrshounka_yamaha_p_noir {
         vItemSpace = 5;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 15000;
         textures[] = {};
     };
 
     class Mrshounka_yamaha_p_bf {
         vItemSpace = 5;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 15000;
         textures[] = {};
     };
 
     class Mrshounka_yamaha_p_r {
         vItemSpace = 5;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 15000;
         textures[] = {};
     };
 
     class Mrshounka_yamaha_p_j {
         vItemSpace = 5;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 15000;
         textures[] = {};
     };
@@ -1151,7 +1151,7 @@ class LifeCfgVehicles {
 
     class ivory_r34 {
         vItemSpace = 45;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 23000;
         textures[] = {
              { "Black", "civ", {
@@ -1189,7 +1189,7 @@ class LifeCfgVehicles {
 
     class ivory_supra_topsecret {
         vItemSpace = 35;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 27000;
         textures[] = {
              { "Black", "civ", {
@@ -1227,56 +1227,56 @@ class LifeCfgVehicles {
 
     class Mrshounka_a3_gtr_civ_noir {
         vItemSpace = 40;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 48000;
         textures[] = {};
     };
 
     class Mrshounka_a3_gtr_civ_bleu {
         vItemSpace = 40;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 48000;
         textures[] = {};
     };
 
     class S_Vantage_Red {
         vItemSpace = 40;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 68000;
         textures[] = {};
     };
 
     class S_Vantage_Black {
         vItemSpace = 40;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 68000;
         textures[] = {};
     };
 
     class S_Vantage_Blue {
         vItemSpace = 40;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 68000;
         textures[] = {};
     };
 
     class S_Vantage_Yellow {
         vItemSpace = 40;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 68000;
         textures[] = {};
     };
 
     class Jonzie_Viper {
         vItemSpace = 20;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 70000;
         textures[] = {};
     };
 
     class ivory_c {
         vItemSpace = 35;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 70000;
         textures[] = {
              { "Black", "civ", {
@@ -1326,14 +1326,14 @@ class LifeCfgVehicles {
 
     class IVORY_REV {
         vItemSpace = 20;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 110000;
         textures[] = {};
     };
 
     class ivory_lfa {
         vItemSpace = 20;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 110000;
         textures[] = {
              { "Black", "civ", {
@@ -1371,77 +1371,77 @@ class LifeCfgVehicles {
 
     class ivory_lp560 {
         vItemSpace = 20;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 156000;
         textures[] = {};
     };
 
     class MG_Audi_R8_11_Black {
         vItemSpace = 20;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 15000;
         textures[] = {};
     };
 
     class MG_Audi_R8_11_Blue {
         vItemSpace = 20;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 160000;
         textures[] = {};
     };
 
     class MG_Audi_R8_11_Red {
         vItemSpace = 20;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 160000;
         textures[] = {};
     };
 
     class MG_Audi_R8_11_Silver {
         vItemSpace = 20;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 160000;
         textures[] = {};
     };
 
     class MG_Audi_R8_11_Yellow {
         vItemSpace = 20;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 160000;
         textures[] = {};
     };
 
     class MG_Audi_R8_11_Green {
         vItemSpace = 20;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 160000;
         textures[] = {};
     };
 
     class MG_Audi_R8_11_White {
         vItemSpace = 20;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 160000;
         textures[] = {};
     };
 
     class MG_Audi_R8_11_Pink {
         vItemSpace = 20;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 160000;
         textures[] = {};
     };
 
     class MG_Audi_R8_11_Purple {
         vItemSpace = 20;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 160000;
         textures[] = {};
     };
 
     class ivory_mp4 {
         vItemSpace = 20;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 210000;
         textures[] = {
              { "Black", "civ", {
@@ -1479,7 +1479,7 @@ class LifeCfgVehicles {
 
     class ivory_f1 {
         vItemSpace = 20;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 500000;
         textures[] = {
              { "Black", "civ", {
@@ -1517,224 +1517,224 @@ class LifeCfgVehicles {
 
     class Mrshounka_pagani_c_noir {
         vItemSpace = 20;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 700000;
         textures[] = {};
     };
 
     class Mrshounka_pagani_c_rouge {
         vItemSpace = 20;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 700000;
         textures[] = {};
     };
 
     class Mrshounka_pagani_c_jaune {
         vItemSpace = 20;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 700000;
         textures[] = {};
     };
 
     class Mrshounka_agera_p_noir {
         vItemSpace = 20;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 900000;
         textures[] = {};
     };
 
     class Mrshounka_agera_p_bleu {
         vItemSpace = 20;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 900000;
         textures[] = {};
     };
 
     class Mrshounka_agera_p_jaune {
         vItemSpace = 20;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 900000;
         textures[] = {};
     };
 
     class urbanized_lp700_pink {
         vItemSpace = 20;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 900000;
         textures[] = {};
     };
 
     class urbanized_lp700_orange {
         vItemSpace = 20;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 920000;
         textures[] = {};
     };
 
     class urbanized_lp700_lime {
         vItemSpace = 20;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 920000;
         textures[] = {};
     };
 
     class urbanized_lp700_blue {
         vItemSpace = 20;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 920000;
         textures[] = {};
     };
 
     class urbanized_lp700_purple {
         vItemSpace = 20;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 920000;
         textures[] = {};
     };
 
     class urbanized_lp700_red {
         vItemSpace = 20;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 920000;
         textures[] = {};
     };
 
     class urbanized_lp700_white {
         vItemSpace = 20;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 920000;
         textures[] = {};
     };
 
     class urbanized_lp700_yellow {
         vItemSpace = 20;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 920000;
         textures[] = {};
     };
 
     class urbanized_LaFerrari_pink {
         vItemSpace = 20;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 950000;
         textures[] = {};
     };
 
     class urbanized_LaFerrari_purple {
         vItemSpace = 20;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 950000;
         textures[] = {};
     };
 
     class urbanized_LaFerrari_red {
         vItemSpace = 20;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 950000;
         textures[] = {};
     };
 
     class urbanized_LaFerrari_white {
         vItemSpace = 20;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 950000;
         textures[] = {};
     };
 
     class urbanized_LaFerrari_yellow {
         vItemSpace = 20;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 950000;
         textures[] = {};
     };
 
     class urbanized_LaFerrari_black {
         vItemSpace = 20;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 950000;
         textures[] = {};
     };
 
     class urbanized_LaFerrari_blue {
         vItemSpace = 20;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 950000;
         textures[] = {};
     };
 
     class urbanized_LaFerrari_darkred {
         vItemSpace = 20;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 950000;
         textures[] = {};
     };
 
     class urbanized_LaFerrari_hotpink {
         vItemSpace = 20;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 950000;
         textures[] = {};
     };
 
     class urbanized_LaFerrari_lime {
         vItemSpace = 20;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 950000;
         textures[] = {};
     };
 
     class urbanized_LaFerrari_black_S {
         vItemSpace = 20;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 970000;
         textures[] = {};
     };
 
     class urbanized_LaFerrari_blue_S {
         vItemSpace = 20;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 970000;
         textures[] = {};
     };
 
     class urbanized_LaFerrari_lime_S {
         vItemSpace = 20;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 970000;
         textures[] = {};
     };
 
     class Mrshounka_lykan_c_noir {
         vItemSpace = 20;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 1500000;
         textures[] = {};
     };
 
     class Mrshounka_lykan_c_jaune {
         vItemSpace = 20;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 1500000;
         textures[] = {};
     };
 
     class Mrshounka_lykan_c_rouge {
         vItemSpace = 20;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 1500000;
         textures[] = {};
     };
 
     class Mrshounka_lykan_c_grise {
         vItemSpace = 20;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 1500000;
         textures[] = {};
     };
 
     class ivory_veyron {
         vItemSpace = 20;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 2000000;
         textures[] = {
              { "Black", "civ", {
@@ -1774,28 +1774,28 @@ class LifeCfgVehicles {
 
     class Mrshounka_Touareg_noir {
         vItemSpace = 70;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 29000;
         textures[] = {};
     };
 
     class Mrshounka_Touareg_rouge {
         vItemSpace = 70;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 29000;
         textures[] = {};
     };
 
     class Mrshounka_Touareg_jaune {
         vItemSpace = 70;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 29000;
         textures[] = {};
     };
 
     class ivory_gti {
         vItemSpace = 50;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 29000;
         textures[] = {
              { "Black", "civ", {
@@ -1833,7 +1833,7 @@ class LifeCfgVehicles {
 
     class ivory_rs4 {
         vItemSpace = 60;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 32000;
         textures[] = {
              { "Black", "civ", {
@@ -1871,42 +1871,42 @@ class LifeCfgVehicles {
 
     class Mrshounka_bmwm1_civ_noir {
         vItemSpace = 60;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 32000;
         textures[] = {};
     };
 
     class Mrshounka_bmwm1_civ_bleufonce {
         vItemSpace = 60;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 32000;
         textures[] = {};
     };
 
     class Mrshounka_bmwm1_civ_rouge {
         vItemSpace = 60;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 32000;
         textures[] = {};
     };
 
     class Mrshounka_bmwm1_civ_grise {
         vItemSpace = 60;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 32000;
         textures[] = {};
     };
 
     class Mrshounka_bmwm1_civ_orange {
         vItemSpace = 60;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 32000;
         textures[] = {};
     };
 
     class ivory_e36 {
         vItemSpace = 50;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 32000;
         textures[] = {
              { "Black", "civ", {
@@ -1944,7 +1944,7 @@ class LifeCfgVehicles {
 
     class ivory_m3 {
         vItemSpace = 55;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 37000;
         textures[] = {
              { "Black", "civ", {
@@ -1982,287 +1982,287 @@ class LifeCfgVehicles {
 
     class Mrshounka_bmwm6_noir {
         vItemSpace = 65;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 38000;
         textures[] = {};
     };
 
     class Mrshounka_bmwm6_bleufonce {
         vItemSpace = 65;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 38000;
         textures[] = {};
     };
 
     class Mrshounka_bmwm6_rouge {
         vItemSpace = 65;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 38000;
         textures[] = {};
     };
 
     class Mrshounka_bmwm6_jaune {
         vItemSpace = 65;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 38000;
         textures[] = {};
     };
 
     class Mrshounka_bmwm6_grise {
         vItemSpace = 65;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 38000;
         textures[] = {};
     };
 
     class Mrshounka_cayenne_p_noir {
         vItemSpace = 55;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 38000;
         textures[] = {};
     };
 
     class Mrshounka_cayenne_p_jaune {
         vItemSpace = 55;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 38000;
         textures[] = {};
     };
 
     class Mrshounka_cayenne_p_rouge {
         vItemSpace = 55;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 38000;
         textures[] = {};
     };
 
     class Mrshounka_cayenne_p_grise {
         vItemSpace = 55;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 38000;
         textures[] = {};
     };
 
     class shounka_a3_rs5_civ_rouge {
         vItemSpace = 50;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 38000;
         textures[] = {};
     };
 
     class shounka_a3_rs5_civ_noir {
         vItemSpace = 50;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 38000;
         textures[] = {};
     };
 
     class shounka_a3_rs5_civ_bleufonce {
         vItemSpace = 50;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 38000;
         textures[] = {};
     };
 
     class shounka_a3_rs5_civ_jaune {
         vItemSpace = 50;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 38000;
         textures[] = {};
     };
 
     class shounka_a3_rs5_civ_grise {
         vItemSpace = 50;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 38000;
         textures[] = {};
     };
 
     class shounka_rs6_grise {
         vItemSpace = 60;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 38000;
         textures[] = {};
     };
 
     class shounka_rs6_noir {
         vItemSpace = 60;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 38000;
         textures[] = {};
     };
 
     class shounka_rs6_jaune {
         vItemSpace = 60;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 38000;
         textures[] = {};
     };
 
     class shounka_rs6_bleufonce {
         vItemSpace = 60;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 38000;
         textures[] = {};
     };
 
     class Mrshounka_c63_2015_noir {
         vItemSpace = 60;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 48000;
         textures[] = {};
     };
 
     class Mrshounka_c63_2015_mat_n {
         vItemSpace = 60;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 48000;
         textures[] = {};
     };
 
     class Mrshounka_c63_2015_rouge {
         vItemSpace = 60;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 48000;
         textures[] = {};
     };
 
     class Mrshounka_c63_2015_jaune {
         vItemSpace = 60;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 48000;
         textures[] = {};
     };
 
     class urbanized_g65_yellow {
         vItemSpace = 80;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 48000;
         textures[] = {};
     };
 
     class urbanized_g65_white {
         vItemSpace = 80;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 48000;
         textures[] = {};
     };
 
     class urbanized_g65_red {
         vItemSpace = 80;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 48000;
         textures[] = {};
     };
 
     class urbanized_g65_purple {
         vItemSpace = 80;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 48000;
         textures[] = {};
     };
 
     class urbanized_g65_black {
         vItemSpace = 80;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 48000;
         textures[] = {};
     };
 
     class urbanized_g65_blue {
         vItemSpace = 80;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 48000;
         textures[] = {};
     };
 
     class urbanized_g65_lime {
         vItemSpace = 80;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 48000;
         textures[] = {};
     };
 
     class urbanized_g65_orange {
         vItemSpace = 80;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 48000;
         textures[] = {};
     };
 
     class urbanized_g65_pink {
         vItemSpace = 80;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 48000;
         textures[] = {};
     };
 
     class shounka_clk_noir {
         vItemSpace = 40;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 48000;
         textures[] = {};
     };
 
     class shounka_clk_rouge {
         vItemSpace = 40;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 48000;
         textures[] = {};
     };
 
     class shounka_clk_jaune {
         vItemSpace = 40;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 48000;
         textures[] = {};
     };
 
     class shounka_porsche911_noir {
         vItemSpace = 20;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 68000;
         textures[] = {};
     };
 
     class shounka_porsche911_jaune {
         vItemSpace = 20;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 68000;
         textures[] = {};
     };
 
     class shounka_porsche911_rouge {
         vItemSpace = 20;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 68000;
         textures[] = {};
     };
 
     class shounka_porsche911_bleufonce {
         vItemSpace = 20;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 68000;
         textures[] = {};
     };
 
     class S_PorscheRS_Black {
         vItemSpace = 20;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 88000;
         textures[] = {};
     };
 
     class S_PorscheRS_White {
         vItemSpace = 20;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 88000;
         textures[] = {};
     };
 
     class S_PorscheRS_Yellow {
         vItemSpace = 20;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 88000;
         textures[] = {};
     };
@@ -2271,154 +2271,154 @@ class LifeCfgVehicles {
 
     class Mrshounka_Alfa_Romeo_noir {
         vItemSpace = 40;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 21000;
         textures[] = {};
     };
 
     class Mrshounka_Alfa_Romeo_bleufonce {
         vItemSpace = 40;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 21000;
         textures[] = {};
     };
 
     class Mrshounka_Alfa_Romeo_rouge {
         vItemSpace = 40;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 21000;
         textures[] = {};
     };
 
     class Mrshounka_Alfa_Romeo_jaune {
         vItemSpace = 40;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 21000;
         textures[] = {};
     };
 
     class Mrshounka_Alfa_Romeo_orange {
         vItemSpace = 40;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 21000;
         textures[] = {};
     };
 
     class Mrshounka_Alfa_Romeo_grise {
         vItemSpace = 40;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 21000;
         textures[] = {};
     };
 
     class shounka_f430_spider_noir {
         vItemSpace = 20;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 121000;
         textures[] = {};
     };
 
     class shounka_f430_spider_jaune {
         vItemSpace = 20;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 121000;
         textures[] = {};
     };
 
     class shounka_f430_spider_rouge {
         vItemSpace = 20;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 121000;
         textures[] = {};
     };
 
     class shounka_f430_spider_violet {
         vItemSpace = 20;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 121000;
         textures[] = {};
     };
 
     class urbanized_granturismo_orange {
         vItemSpace = 50;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 121000;
         textures[] = {};
     };
 
     class urbanized_granturismo_purple {
         vItemSpace = 50;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 121000;
         textures[] = {};
     };
 
     class urbanized_granturismo_white {
         vItemSpace = 50;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 121000;
         textures[] = {};
     };
 
     class urbanized_granturismo_yellow {
         vItemSpace = 50;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 121000;
         textures[] = {};
     };
 
     class urbanized_granturismo_black {
         vItemSpace = 50;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 121000;
         textures[] = {};
     };
 
     class urbanized_granturismo_blue {
         vItemSpace = 50;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 121000;
         textures[] = {};
     };
 
     class urbanized_granturismo_darkred {
         vItemSpace = 50;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 121000;
         textures[] = {};
     };
 
     class urbanized_granturismo_hotpink {
         vItemSpace = 50;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 121000;
         textures[] = {};
     };
 
     class urbanized_granturismo_lime {
         vItemSpace = 50;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 121000;
         textures[] = {};
     };
 
     class Mrshounka_veneno_c_noir {
         vItemSpace = 20;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 1500000;
         textures[] = {};
     };
 
     class Mrshounka_veneno_c_bleu {
         vItemSpace = 20;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 1500000;
         textures[] = {};
     };
 
     class Mrshounka_veneno_c_jaune {
         vItemSpace = 20;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 1500000;
         textures[] = {};
     };
@@ -2427,287 +2427,287 @@ class LifeCfgVehicles {
 
     class Mrshounka_jeep_blinde_noir {
         vItemSpace = 60;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 22000;
         textures[] = {};
     };
 
     class Mrshounka_jeep_blinde_noir_mat {
         vItemSpace = 60;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 22000;
         textures[] = {};
     };
 
     class Mrshounka_jeep_blinde_rouge {
         vItemSpace = 60;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 22000;
         textures[] = {};
     };
 
     class Mrshounka_jeep_blinde_rouge_mat {
         vItemSpace = 60;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 22000;
         textures[] = {};
     };
 
     class Mrshounka_jeep_blinde_blanc {
         vItemSpace = 60;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 22000;
         textures[] = {};
     };
 
     class Mrshounka_hummer_civ_noir {
         vItemSpace = 80;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 27000;
         textures[] = {};
     };
 
     class Mrshounka_hummer_civ_bleufonce {
         vItemSpace = 80;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 27000;
         textures[] = {};
     };
 
     class Mrshounka_hummer_civ_jaune {
         vItemSpace = 80;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 27000;
         textures[] = {};
     };
 
     class Mrshounka_hummer_civ_rouge {
         vItemSpace = 80;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 27000;
         textures[] = {};
     };
 
     class shounka_h2_rouge {
         vItemSpace = 80;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 27000;
         textures[] = {};
     };
 
     class shounka_h2_noir {
         vItemSpace = 80;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 27000;
         textures[] = {};
     };    
 
     class shounka_h2_jaune {
         vItemSpace = 80;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 27000;
         textures[] = {};
     };
 
     class Mrshounka_mustang_noir {
         vItemSpace = 50;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 30000;
         textures[] = {};
     };
 
     class Mrshounka_mustang_mat_n {
         vItemSpace = 50;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 30000;
         textures[] = {};
     };
 
     class Mrshounka_mustang_rouge {
         vItemSpace = 50;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 30000;
         textures[] = {};
     };
 
     class Mrshounka_mustang_jaune {
         vItemSpace = 50;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 30000;
         textures[] = {};
     };
 
     class Mrshounka_mustang_orange {
         vItemSpace = 50;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 30000;
         textures[] = {};
     };
 
     class Mrshounka_a3_dodge15_civ_noir {
         vItemSpace = 55;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 30000;
         textures[] = {};
     };
 
     class Mrshounka_a3_dodge15_civ_bleu {
         vItemSpace = 55;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 30000;
         textures[] = {};
     };
 
     class Mrshounka_a3_dodge15_civ_rouge {
         vItemSpace = 55;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 30000;
         textures[] = {};
     };
 
     class Mrshounka_a3_dodge15_civ_jaune {
         vItemSpace = 55
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 30000;
         textures[] = {};
     };
 
     class Mrshounka_a3_dodge15_civ_rose {
         vItemSpace = 55;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 30000;
         textures[] = {};
     };
 
     class Mrshounka_a3_dodge15_civ_grise {
         vItemSpace = 55;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 30000;
         textures[] = {};
     };
 
     class Mrshounka_a3_dodge15_civ_violet {
         vItemSpace = 55;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 30000;
         textures[] = {};
     };
 
     class Mrshounka_a3_dodge15_civ_orange {
         vItemSpace = 55;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 30000;
         textures[] = {};
     };
 
     class Mrshounka_raptor_noir {
         vItemSpace = 70;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 32000;
         textures[] = {};
     };
 
     class Mrshounka_raptor_rouge {
         vItemSpace = 70;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 32000;
         textures[] = {};
     };
 
     class Mrshounka_raptor_jaune {
         vItemSpace = 70;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 32000;
         textures[] = {};
     };
 
     class Mrshounka_raptor_grise {
         vItemSpace = 70;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 32000;
         textures[] = {};
     };
 
     class Mrshounka_raptor_violet {
         vItemSpace = 70;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 32000;
         textures[] = {};
     };
 
     class shounka_avalanche_noir {
         vItemSpace = 75;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 32000;
         textures[] = {};
     };
 
     class shounka_avalanche_grise {
         vItemSpace = 75;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 32000;
         textures[] = {};
     };
 
     class shounka_avalanche_rouge {
         vItemSpace = 75;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 32000;
         textures[] = {};
     };
 
     class shounka_avalanche_jaune {
         vItemSpace = 75;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 32000;
         textures[] = {};
     };
 
     class Mrshounka_cherokee_mat {
         vItemSpace = 70;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 32000;
         textures[] = {};
     };
 
     class Mrshounka_cherokee_bleu {
         vItemSpace = 70;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 32000;
         textures[] = {};
     };
 
     class Mrshounka_cherokee_bleu_mat {
         vItemSpace = 70;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 32000;
         textures[] = {};
     };
 
     class Mrshounka_cherokee_blanc_mat {
         vItemSpace = 70;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 32000;
         textures[] = {};
     };
 
     class Mrshounka_cherokee_rouge_mat {
         vItemSpace = 70;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 32000;
         textures[] = {};
     };
 
     class A3L_F350Black {
         vItemSpace = 100;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 60000;
         textures[] = {};
     };
 
     class ivory_suburban {
         vItemSpace = 95;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 60000;
         textures[] = {
              { "Black", "civ", {
@@ -2745,77 +2745,77 @@ class LifeCfgVehicles {
 
     class shounka_gt_noir {
         vItemSpace = 20;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 135000;
         textures[] = {};
     };
 
     class shounka_gt_rouge {
         vItemSpace = 20;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 135000;
         textures[] = {};
     };
 
     class shounka_gt_jaune {
         vItemSpace = 20;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 135000;
         textures[] = {};
     };
 
     class shounka_gt_grise {
         vItemSpace = 20;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 135000;
         textures[] = {};
     };
 
     class shounka_gt_violet {
         vItemSpace = 20;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 135000;
         textures[] = {};
     };
 
     class shounka_monsteur_violet {
         vItemSpace = 50;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 335000;
         textures[] = {};
     };
 
     class shounka_monsteur_grise {
         vItemSpace = 50;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 335000;
         textures[] = {};
     };
 
     class shounka_monsteur_bleufonce {
         vItemSpace = 50;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 335000;
         textures[] = {};
     };
 
     class shounka_monsteur_noir {
         vItemSpace = 50;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 335000;
         textures[] = {};
     };
 
     class shounka_monsteur_jaune {
         vItemSpace = 50;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 335000;
         textures[] = {};
     };
 
     class shounka_monsteur_rose {
         vItemSpace = 50;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 335000;
         textures[] = {};
     };
@@ -2824,35 +2824,35 @@ class LifeCfgVehicles {
 
     class A3L_EscortTaxi {
         vItemSpace = 40;
-        conditions = "";
+        conditions = "license_civ_trucking";
         price = 15000;
         textures[] = {};
     };
 
     class ivory_190e_taxi {
         vItemSpace = 45;
-        conditions = "";
+        conditions = "license_civ_trucking";
         price = 20000;
         textures[] = {};
     };
 
     class ivory_rs4_taxi {
         vItemSpace = 50;
-        conditions = "";
+        conditions = "license_civ_trucking";
         price = 25000;
         textures[] = {};
     };
 
     class shounka_limo_civ_noir {
         vItemSpace = 60;
-        conditions = "";
+        conditions = "license_civ_trucking";
         price = 43000;
         textures[] = {};
     };
 
     class shounka_limo_civ_violet {
         vItemSpace = 60;
-        conditions = "";
+        conditions = "license_civ_trucking";
         price = 43000;
         textures[] = {};
     };
@@ -2861,259 +2861,259 @@ class LifeCfgVehicles {
 
     class SAL_77TRANSAMCiv {
         vItemSpace = 40;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 22000;
         textures[] = {};
     };
 
     class SAL_IROCCivBlack {
         vItemSpace = 45;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 23500;
         textures[] = {};
     };
 
     class SAL_IROCCivSilver {
         vItemSpace = 45;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 23500;
         textures[] = {};
     };
 
     class SAL_IROCCivRed {
         vItemSpace = 45;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 23500;
         textures[] = {};
     };
 
     class SAL_IROCCivBlue {
         vItemSpace = 45;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 23500;
         textures[] = {};
     };
 
     class shounka_transam_noir {
         vItemSpace = 40;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 23500;
         textures[] = {};
     };
 
     class shounka_transam_rouge {
         vItemSpace = 40;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 23500;
         textures[] = {};
     };
 
     class shounka_transam_jaune {
         vItemSpace = 40;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 23500;
         textures[] = {};
     };
 
     class Mrshounka_lincoln_noir {
         vItemSpace = 65;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 25000;
         textures[] = {};
     };
 
     class Mrshounka_lincoln_bleufonce {
         vItemSpace = 65;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 25000;
         textures[] = {};
     };
 
     class Mrshounka_lincoln_rouge {
         vItemSpace = 65;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 25000;
         textures[] = {};
     };
 
     class Mrshounka_lincoln_violet {
         vItemSpace = 65;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 25000;
         textures[] = {};
     };
 
     class ADM_1969_Charger {
         vItemSpace = 60;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 35000;
         textures[] = {};
     };
 
     class SIG_SuperBeeB {
         vItemSpace = 60;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 42000;
         textures[] = {};
     };
 
     class SIG_SuperBeeY {
         vItemSpace = 60;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 42000;
         textures[] = {};
     };
 
     class SIG_SuperBeeM {
         vItemSpace = 60;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 42000;
         textures[] = {};
     };
 
     class SIG_Roadrunner {
         vItemSpace = 60;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 42000;
         textures[] = {};
     };
 
     class SIG_Roadrunner {
         vItemSpace = 60;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 42000;
         textures[] = {};
     };
 
     class SIG_Hcodes {
         vItemSpace = 20;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 42000;
         textures[] = {};
     };
 
     class SIG_Magnums {
         vItemSpace = 60;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 42000;
         textures[] = {};
     };
 
     class Mrshounka_mercedes_190_p_orange {
         vItemSpace = 40;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 50000;
         textures[] = {};
     };
 
     class Mrshounka_mercedes_190_p_rouge {
         vItemSpace = 40;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 50000;
         textures[] = {};
     };
 
     class Mrshounka_mercedes_190_p_noir {
         vItemSpace = 40;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 50000;
         textures[] = {};
     };
 
     class Mrshounka_mercedes_190_p_violet {
         vItemSpace = 40;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 50000;
         textures[] = {};
     };
 
     class urbanized_67Mustang_orange {
         vItemSpace = 35;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 30000;
         textures[] = {};
     };
 
     class urbanized_67Mustang_darkred {
         vItemSpace = 35;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 70000;
         textures[] = {};
     };
 
     class urbanized_67Mustang_white {
         vItemSpace = 35;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 70000;
         textures[] = {};
     };
 
     class urbanized_67Mustang_black {
         vItemSpace = 35;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 70000;
         textures[] = {};
     };
 
     class urbanized_67Mustang_blue {
         vItemSpace = 35;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 70000;
         textures[] = {};
     };
 
     class mrshounka_92_civ_noir {
         vItemSpace = 20;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 75000;
         textures[] = {};
     };
 
     class mrshounka_92_civ_bleufonce {
         vItemSpace = 20;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 75000;
         textures[] = {};
     };
 
     class mrshounka_92_civ_rouge {
         vItemSpace = 20;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 75000;
         textures[] = {};
     };
 
     class mrshounka_92_civ_jaune {
         vItemSpace = 20;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 75000;
         textures[] = {};
     };
 
     class mrshounka_92_civ_rose {
         vItemSpace = 20;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 75000;
         textures[] = {};
     };
 
     class mrshounka_92_civ_grise {
         vItemSpace = 20;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 75000;
         textures[] = {};
     };
 
     class mrshounka_92_civ_violet {
         vItemSpace = 20;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 75000;
         textures[] = {};
     };
 
     class mrshounka_92_civ_orange {
         vItemSpace = 20;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 75000;
         textures[] = {};
     };
@@ -3121,56 +3121,56 @@ class LifeCfgVehicles {
 
     class urbanized_427_black {
         vItemSpace = 20;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 90000;
         textures[] = {};
     };
 
     class urbanized_427_blue {
         vItemSpace = 20;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 90000;
         textures[] = {};
     };
 
     class urbanized_427_orange {
         vItemSpace = 20;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 90000;
         textures[] = {};
     };
 
     class urbanized_427_pink {
         vItemSpace = 20;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 90000;
         textures[] = {};
     };
 
     class urbanized_427_red {
         vItemSpace = 20;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 90000;
         textures[] = {};
     };
 
     class urbanized_427_white {
         vItemSpace = 20;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 90000;
         textures[] = {};
     };
 
     class urbanized_427_yellow {
         vItemSpace = 20;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 90000;
         textures[] = {};
     };
 
     class urbanized_427_wed {
         vItemSpace = 20;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 100000;
         textures[] = {};
     };
@@ -3179,28 +3179,28 @@ class LifeCfgVehicles {
 
     class C_Kart_01_Blu_F {
         vItemSpace = 0;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 15000;
         textures[] = {};
     };
 
     class C_Kart_01_Fuel_F {
         vItemSpace = 0;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 15000;
         textures[] = {};
     };
 
     class C_Kart_01_Red_F {
         vItemSpace = 0;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 15000;
         textures[] = {};
     };
 
     class C_Kart_01_Vrana_F {
         vItemSpace = 0;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 15000;
         textures[] = {};
     };
@@ -3350,168 +3350,168 @@ class LifeCfgVehicles {
 
     class shounka_buggy_noir {
         vItemSpace = 10;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 25000;
         textures[] = {};
     };
 
     class shounka_buggy_rouge {
         vItemSpace = 10;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 25000;
         textures[] = {};
     };
 
     class shounka_buggy_bleufonce {
         vItemSpace = 10;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 25000;
         textures[] = {};
     };
 
     class shounka_buggy_violet {
         vItemSpace = 10;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 25000;
         textures[] = {};
     };
 
     class Mrshounka_Bowler_c_noir {
         vItemSpace = 80;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 28000;
         textures[] = {};
     };
 
     class Mrshounka_Bowler_c_bleufonce {
         vItemSpace = 80;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 28000;
         textures[] = {};
     };
 
     class Mrshounka_Bowler_c_rouge {
         vItemSpace = 80;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 28000;
         textures[] = {};
     };
 
     class Mrshounka_Bowler_c_jaune {
         vItemSpace = 80;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 28000;
         textures[] = {};
     };
 
     class Mrshounka_Bowler_c_orange {
         vItemSpace = 80;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 28000;
         textures[] = {};
     };
 
     class Mrshounka_Bowler_c_violet {
         vItemSpace = 60;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 28000;
         textures[] = {};
     };
 
     class Mrshounka_raptor2_noir {
         vItemSpace = 60;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 35000;
         textures[] = {};
     };
 
     class Mrshounka_raptor2_rouge {
         vItemSpace = 60;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 35000;
         textures[] = {};
     };
 
     class Mrshounka_raptor2_jaune {
         vItemSpace = 60;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 35000;
         textures[] = {};
     };
 
     class Mrshounka_raptor2_grise {
         vItemSpace = 60;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 35000;
         textures[] = {};
     };
 
     class Mrshounka_raptor2_violet {
         vItemSpace = 60;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 35000;
         textures[] = {};
     };
 
     class beetle_bleufonce {
         vItemSpace = 60;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 45000;
         textures[] = {};
     };
 
     class beetle_bleupetrole {
         vItemSpace = 50;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 45000;
         textures[] = {};
     };
 
     class beetle_red {
         vItemSpace = 50;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 45000;
         textures[] = {};
     };
 
     class beetle_violet {
         vItemSpace = 50;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 45000;
         textures[] = {};
     };
 
     class beetle_white {
         vItemSpace = 50;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 45000;
         textures[] = {};
     };
 
     class beetle_psycha {
         vItemSpace = 50;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 45000;
         textures[] = {};
     };
 
     class beetle_psycha1 {
         vItemSpace = 50;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 45000;
         textures[] = {};
     };
 
     class beetle_coci {
         vItemSpace = 50;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 45000;
         textures[] = {};
     };
 
     class beetle_camo {
         vItemSpace = 50;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 45000;
         textures[] = {};
     };
@@ -3520,84 +3520,84 @@ class LifeCfgVehicles {
 
     class ivory_tractor {
         vItemSpace = 30;
-        conditions = "";
+        conditions = "license_civ_trucking";
         price = 7000;
         textures[] = {};
     };
 
     class ivory_tractor2 {
         vItemSpace = 30;
-        conditions = "";
+        conditions = "license_civ_trucking";
         price = 7000;
         textures[] = {};
     };
 
     class A3L_Bus {
         vItemSpace = 60;
-        conditions = "";
+        conditions = "license_civ_trucking";
         price = 60000;
         textures[] = {};
     };
 
     class A3L_Towtruck {
         vItemSpace = 60;
-        conditions = "";
+        conditions = "license_civ_trucking";
         price = 60000;
         textures[] = {};
     };
 
     class shounka_a3_spr_civ_noir {
         vItemSpace = 110;
-        conditions = "";
+        conditions = "license_civ_trucking";
         price = 75000;
         textures[] = {};
     };
 
     class Jonzie_Transit {
         vItemSpace = 120;
-        conditions = "";
+        conditions = "license_civ_trucking";
         price = 100000;
         textures[] = {};
     };
 
     class MG_AA_Tow_Truck_Black {
         vItemSpace = 60;
-        conditions = "";
+        conditions = "license_civ_trucking";
         price = 200000;
         textures[] = {};
     };
 
     class shounka_a3_brinks_noir {
         vItemSpace = 100;
-        conditions = "";
+        conditions = "license_civ_trucking";
         price = 250000;
         textures[] = {};
     };
 
     class shounka_a3_brinks_bleufonce {
         vItemSpace = 100;
-        conditions = "";
+        conditions = "license_civ_trucking";
         price = 250000;
         textures[] = {};
     };
 
     class Jonzie_Western {
         vItemSpace = 40;
-        conditions = "";
+        conditions = "license_civ_trucking";
         price = 250000;
         textures[] = {};
     };
 
     class Jonzie_Superliner {
         vItemSpace = 40;
-        conditions = "";
+        conditions = "license_civ_trucking";
         price = 260000;
         textures[] = {};
     };
 
     class Jonzie_Curtain {
         vItemSpace = 300;
-        conditions = "";
+        conditions = "license_civ_trucking";
         price = 350000;
         textures[] = {};
     };
@@ -3627,7 +3627,7 @@ class LifeCfgVehicles {
 
     class I_G_Van_01_fuel_F {
         vItemSpace = 20;
-        conditions = "";
+        conditions = "l";
         price = 25000;
         textures[] = {};
     };
@@ -3643,161 +3643,161 @@ class LifeCfgVehicles {
 
     class Aus_PD {
         vItemSpace = 80;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 1000;
         textures[] = {};
     };
 
     class A3L_TaurusFPBLBCSO {
         vItemSpace = 80;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 1000;
         textures[] = {};
     };
 
     class A3L_TaurusCO2 {
         vItemSpace = 80;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 1000;
         textures[] = {};
     };
 
     class DAR_ImpalaPolice {
         vItemSpace = 80;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 1000;
         textures[] = {};
     };
 
     class A3L_Charger_HWP {
         vItemSpace = 80;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 2000;
         textures[] = {};
     };
 
     class DAR_TahoePolice {
         vItemSpace = 80;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 68000;
         textures[] = {};
     };
 
     class DAR_ExplorerPolice {
         vItemSpace = 80;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 3000;
         textures[] = {};
     };
 
     class Aus_UC {
         vItemSpace = 80;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 1000;
         textures[] = {};
     };
 
     class Aus_UC_gray {
         vItemSpace = 80;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 1000;
         textures[] = {};
     };
 
     class Aus_UC_blue {
         vItemSpace = 80;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 1000;
         textures[] = {};
     };
 
     class urbanized_ctsv_uc1 {
         vItemSpace = 80;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 1000;
         textures[] = {};
     };
 
     class urbanized_ctsv_uc2 {
         vItemSpace = 80;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 1000;
         textures[] = {};
     };
 
     class urbanized_ctsv_uc3 {
         vItemSpace = 80;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 1000;
         textures[] = {};
     };
 
     class DAR_ExplorerPoliceStealth {
         vItemSpace = 80;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 3000;
         textures[] = {};
     };
 
     class A3L_ChargerUC_Black_New {
         vItemSpace = 80;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 2000;
         textures[] = {};
     };
 
     class A3L_ChargerUC_Blue_New {
         vItemSpace = 80;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 2000;
         textures[] = {};
     };
 
     class A3L_ChargerUC_white_New {
         vItemSpace = 80;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 2000;
         textures[] = {};
     };
 
     class urbanized_g65_uc1 {
         vItemSpace = 80;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 2000;
         textures[] = {};
     };
 
     class urbanized_g65_uc3 {
         vItemSpace = 80;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 2000;
         textures[] = {};
     };
 
     class demian2435_swat_hunter {
         vItemSpace = 80;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 6000;
         textures[] = {};
     };
 
     class shounka_a3_suburbangign {
         vItemSpace = 80;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 6000;
         textures[] = {};
     };
 
     class urbanized_g65_uc2 {
         vItemSpace = 80;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 2000;
         textures[] = {};
     };
 
     class urbanized_LP700_P {
         vItemSpace = 80;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 8000;
         textures[] = {};
     };
@@ -3806,336 +3806,336 @@ class LifeCfgVehicles {
 
     class sab_FAAllegro {
         vItemSpace = 40;
-        conditions = "";
+        conditions = "license_civ_pilot";
         price = 50000;
         textures[] = {};
     };
 
     class sab_FAAllegro_2 {
         vItemSpace = 40;
-        conditions = "";
+        conditions = "license_civ_pilot";
         price = 50000;
         textures[] = {};
     };
 
     class sab_FAAllegro_3 {
         vItemSpace = 40;
-        conditions = "";
+        conditions = "license_civ_pilot";
         price = 50000;
         textures[] = {};
     };
 
     class sab_FAAllegro_4 {
         vItemSpace = 40;
-        conditions = "";
+        conditions = "license_civ_pilot";
         price = 50000;
         textures[] = {};
     };
 
     class sab_FAAllegro_5 {
         vItemSpace = 40;
-        conditions = "";
+        conditions = "license_civ_pilot";
         price = 50000;
         textures[] = {};
     };
 
     class C_Heli_light_01_red_F {
         vItemSpace = 50;
-        conditions = "";
+        conditions = "license_civ_pilot";
         price = 55000;
         textures[] = {};
     };
 
     class C_Heli_light_01_blue_F {
         vItemSpace = 50;
-        conditions = "";
+        conditions = "license_civ_pilot";
         price = 55000;
         textures[] = {};
     };
 
     class sab_l19 {
         vItemSpace = 50;
-        conditions = "";
+        conditions = "license_civ_pilot";
         price = 60000;
         textures[] = {};
     };
 
     class sab_l19_2 {
         vItemSpace = 50;
-        conditions = "";
+        conditions = "license_civ_pilot";
         price = 60000;
         textures[] = {};
     };
 
     class sab_l19_3 {
         vItemSpace = 50;
-        conditions = "";
+        conditions = "license_civ_pilot";
         price = 60000;
         textures[] = {};
     };
 
     class sab_RobinDR400 {
         vItemSpace = 55;
-        conditions = "";
+        conditions = "license_civ_pilot";
         price = 80000;
         textures[] = {};
     };
 
     class sab_RobinDR400_2 {
         vItemSpace = 55;
-        conditions = "";
+        conditions = "license_civ_pilot";
         price = 80000;
         textures[] = {};
     };
 
     class sab_RobinDR400_3 {
         vItemSpace = 55;
-        conditions = "";
+        conditions = "license_civ_pilot";
         price = 80000;
         textures[] = {};
     };
 
     class sab_RobinDR400_4 {
         vItemSpace = 55;
-        conditions = "";
+        conditions = "license_civ_pilot";
         price = 80000;
         textures[] = {};
     };
 
     class sab_RobinDR400_5 {
         vItemSpace = 55;
-        conditions = "";
+        conditions = "license_civ_pilot";
         price = 80000;
         textures[] = {};
     };
 
     class sab_piper {
         vItemSpace = 65;
-        conditions = "";
+        conditions = "license_civ_pilot";
         price = 80000;
         textures[] = {};
     };
 
     class sab_piper2 {
         vItemSpace = 65;
-        conditions = "";
+        conditions = "license_civ_pilot";
         price = 80000;
         textures[] = {};
     };
 
     class sab_piper3 {
         vItemSpace = 65;
-        conditions = "";
+        conditions = "license_civ_pilot";
         price = 80000;
         textures[] = {};
     };
 
     class sab_piper4 {
         vItemSpace = 65;
-        conditions = "";
+        conditions = "license_civ_pilot";
         price = 80000;
         textures[] = {};
     };
 
     class sab_piper5 {
         vItemSpace = 65;
-        conditions = "";
+        conditions = "license_civ_pilot";
         price = 80000;
         textures[] = {};
     };
 
     class c_plane_civil_01_F {
         vItemSpace = 75;
-        conditions = "";
+        conditions = "license_civ_pilot";
         price = 95000;
         textures[] = {};
     };
 
     class I_c_plane_civil_01_F {
         vItemSpace = 75;
-        conditions = "";
+        conditions = "license_civ_pilot";
         price = 95000;
         textures[] = {};
     };
 
     class c_plane_civil_01_racing_F {
         vItemSpace = 75;
-        conditions = "";
+        conditions = "license_civ_pilot";
         price = 100000;
         textures[] = {};
     };
 
     class sab_camel_pro {
         vItemSpace = 20;
-        conditions = "";
+        conditions = "license_civ_pilot";
         price = 100000;
         textures[] = {};
     };
 
     class dezkit_b206_hs {
         vItemSpace = 80;
-        conditions = "";
+        conditions = "license_civ_pilot";
         price = 150000;
         textures[] = {};
     };
 
     class dezkit_b206_ls {
         vItemSpace = 80;
-        conditions = "";
+        conditions = "license_civ_pilot";
         price = 150000;
         textures[] = {};
     };
 
     class dezkit_b206_fl {
         vItemSpace = 80;
-        conditions = "";
+        conditions = "license_civ_pilot";
         price = 170000;
         textures[] = {};
     };
 
     class dezkit_b206_news {
         vItemSpace = 80;
-        conditions = "";
+        conditions = "license_civ_pilot";
         price = 180000;
         textures[] = {};
     };
 
     class I_Heli_light_03_unarmed_F {
         vItemSpace = 100;
-        conditions = "";
+        conditions = "license_civ_pilot";
         price = 200000;
         textures[] = {};
     };
 
     class sab_aeroc {
         vItemSpace = 150;
-        conditions = "";
+        conditions = "license_civ_pilot";
         price = 200000;
         textures[] = {};
     };
 
     class sab_aeroc_2 {
         vItemSpace = 150;
-        conditions = "";
+        conditions = "license_civ_pilot";
         price = 200000;
         textures[] = {};
     };
 
     class sab_aeroc_3 {
         vItemSpace = 150;
-        conditions = "";
+        conditions = "license_civ_pilot";
         price = 200000;
         textures[] = {};
     };
 
     class ARMSCor_A109_Civ {
         vItemSpace = 90;
-        conditions = "";
+        conditions = "license_civ_pilot";
         price = 250000;
         textures[] = {};
     };
 
     class sab_do228 {
         vItemSpace = 190;
-        conditions = "";
+        conditions = "license_civ_pilot";
         price = 250000;
         textures[] = {};
     };
 
     class sab_do228_2 {
         vItemSpace = 190;
-        conditions = "";
+        conditions = "license_civ_pilot";
         price = 250000;
         textures[] = {};
     };
 
     class sab_do228_3_1 {
         vItemSpace = 190;
-        conditions = "";
+        conditions = "license_civ_pilot";
         price = 250000;
         textures[] = {};
     };
 
     class sab_do228_3_2 {
         vItemSpace = 190;
-        conditions = "";
+        conditions = "license_civ_pilot";
         price = 250000;
         textures[] = {};
     };
 
     class sab_do228_4 {
         vItemSpace = 190;
-        conditions = "";
+        conditions = "license_civ_pilot";
         price = 250000;
         textures[] = {};
     };
 
     class sab_do228_5 {
         vItemSpace = 190;
-        conditions = "";
+        conditions = "license_civ_pilot";
         price = 250000;
         textures[] = {};
     };
 
     class O_Heli_Light_02_unarmed_F {
         vItemSpace = 150;
-        conditions = "";
+        conditions = "license_civ_pilot";
         price = 500000;
         textures[] = {};
     };
 
     class sab_panther {
         vItemSpace = 30;
-        conditions = "";
+        conditions = "license_civ_pilot";
         price = 1000000;
         textures[] = {};
     };
 
     class sab_fiat4 {
         vItemSpace = 30;
-        conditions = "";
+        conditions = "license_civ_pilot";
         price = 1200000;
         textures[] = {};
     };
 
     class sab_fiat5 {
         vItemSpace = 30;
-        conditions = "";
+        conditions = "license_civ_pilot";
         price = 1200000;
         textures[] = {};
     };
 
     class sab_alphajet9 {
         vItemSpace = 30;
-        conditions = "";
+        conditions = "license_civ_pilot";
         price = 1500000;
         textures[] = {};
     };
 
     class sab_alphajet10 {
         vItemSpace = 30;
-        conditions = "";
+        conditions = "license_civ_pilot";
         price = 1500000;
         textures[] = {};
     };
 
     class sab_alphajet11 {
         vItemSpace = 30;
-        conditions = "";
+        conditions = "license_civ_pilot";
         price = 1500000;
         textures[] = {};
     };
 
     class sab_alphajet12 {
         vItemSpace = 30;
-        conditions = "";
+        conditions = "license_civ_pilot";
         price = 1500000;
         textures[] = {};
     };
 
     class sab_alphajet13 {
         vItemSpace = 30;
-        conditions = "";
+        conditions = "license_civ_pilot";
         price = 1500000;
         textures[] = {};
     };
@@ -4248,35 +4248,35 @@ class LifeCfgVehicles {
 
     class C_Rubberboat {
         vItemSpace = 20;
-        conditions = "";
+        conditions = "license_civ_boat";
         price = 68000;
         textures[] = {};
     };
 
     class A3L_JetSki_Yellow {
         vItemSpace = 20;
-        conditions = "";
+        conditions = "license_civ_boat";
         price = 1000;
         textures[] = {};
     };
 
     class C_Boat_Civil_01_F {
         vItemSpace = 60;
-        conditions = "";
+        conditions = "license_civ_boat";
         price = 15000;
         textures[] = {};
     };
 
     class A3L_Ship {
         vItemSpace = 40;
-        conditions = "";
+        conditions = "license_civ_boat";
         price = 35000;
         textures[] = {};
     };
 
     class burnes_mk10_1 {
         vItemSpace = 50;
-        conditions = "";
+        conditions = "license_civ_boat";
         price = 500000;
         textures[] = {};
     };
@@ -4447,7 +4447,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
 
     class B_MRAP_01_F {
         vItemSpace = 65;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 30000;
         textures[] = {
             { "Black", "cop", {
@@ -4459,7 +4459,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
 
      class B_Heli_Light_01_stripped_F {
         vItemSpace = 90;
-        conditions = "";
+        conditions = "license_civ_driver";
         price = 275000;
         textures[] = {
             { "Rebel Digital", "reb", {
