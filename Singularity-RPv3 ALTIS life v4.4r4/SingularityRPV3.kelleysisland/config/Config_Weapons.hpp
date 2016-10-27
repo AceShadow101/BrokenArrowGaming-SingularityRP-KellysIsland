@@ -24,19 +24,33 @@ class WeaponShops {
         side = "civ";
         conditions = "license_civ_gun";
         items[] = {
-            { "hgun_Rook40_F", "", 6500, 500, "" },
-            { "hgun_Pistol_heavy_02_F", "", 9850, -1, "" },
-            { "hgun_ACPC2_F", "", 11500, -1, "" },
-            { "hgun_PDW2000_F", "", 20000, -1, "" }
+            { "KPFS_Walther_M9", "", 1000, -1, "" },
+            { "KPFS_P1", "", 1200, -1, "" },
+            { "KPFS_P38", "", 1400, -1, "" },
+            { "KPFS_P38k", "", 1600, -1, "" },
+            { "KPFS_P5", "", 1800, -1, "" },
+            { "KPFS_Walther_PP", "", 2000, -1, "" },
+            { "KPFS_P99", "", 3000, -1, "" },
+            { "KPFS_HKP7", "", 1000, -1, "" },
+            { "KPFS_Mauser_Hsc", "", 1200, -1, "" },
+            { "rhs_weap_makarov_pmm", "", 2000, -1, "" },
+            { "hgun_Rook40_F", "", 2500, -1, "" },
+            { "rhs_weap_pya", "", 3000, -1, "" },
+            { "rhsusf_weap_m1911a1", "", 4000, -1, "" },
+            { "hgun_Pistol_heavy_02_F", "", 5000, -1, "" }
         };
         mags[] = {
-            { "16Rnd_9x21_Mag", "", 25, 100, "" },
-            { "6Rnd_45ACP_Cylinder", "", 50, 100, "" },
-            { "9Rnd_45ACP_Mag", "", 45, 100, "" },
-            { "30Rnd_9x21_Mag", "", 75, 100, "" }
+            { "kpfs_6Rnd_635x15", "", 100, -1, "" },
+            { "KPFS_8Rnd_9x19_PARA", "", 200, -1, "" },
+            { "kpfs_8Rnd_765x17_PP", "", 600, -1, "" },
+            { "KPFS_15rnd_9x19_P99", "", 500, -1, "" },
+            { "rhs_mag_9x18_12_57N181S", "", 500, -1, "" },
+            { "16Rnd_9x21_Mag", "", 500, -1, "" },
+            { "rhs_mag_9x19_17", "", 500, -1, "" },
+            { "rhsusf_mag_7x45acp_MHP", "", 800, -1, "" },
+            { "6Rnd_45ACP_Cylinder", "", 800, -1, "" }
         };
         accs[] = {
-            { "optic_ACO_grn_smg", "", 2500, 100, "" }
         };
     };
 
