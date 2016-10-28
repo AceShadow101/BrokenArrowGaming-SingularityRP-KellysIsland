@@ -252,6 +252,9 @@ class Clothing {
             { "NONE", "Remove Uniform", 0, "" },
             { "demian2435_police_man_uniform", "UCPD Patrol Uniform", 55, "FETCH_CONST(life_coplevel) >= 1" },
             { "doc_uniform_co", "DOC Uniform", 55, "FETCH_CONST(life_coplevel) >= 1" },
+            { "doc_uniform_sco", "DOC Uniform Senior", 55, "FETCH_CONST(life_coplevel) >= 1" },
+            { "doc_uniform_sgt", "DOC Uniform Sergeant", 55, "FETCH_CONST(life_coplevel) >= 1" },
+            { "doc_uniform_cmd", "DOC Uniform Command", 55, "FETCH_CONST(life_coplevel) >= 1" },
             { "fto_uni", "FTO Uniform", 25, "FETCH_CONST(life_coplevel) >= 1" },
             { "TRYK_U_B_AOR2_OD_CombatUniform", "SWAT Uniform", 55, "FETCH_CONST(life_coplevel) >= 1" },
             { "demian2435_swat_man_uniform", "Riot Uniform", 65, "FETCH_CONST(life_coplevel) >= 1" },
@@ -262,6 +265,7 @@ class Clothing {
         headgear[] = {
             { "NONE", "Remove Hat", 0, "" },
             { "jamie_pcapblack", "Patrol Cap", 25, "FETCH_CONST(life_coplevel) >= 1" },
+            { "corrections_cap", "Corrections Cap", 25, "FETCH_CONST(life_coplevel) >= 1" },
             { "rhsusf_opscore_fg", "SWAT Helmet", 25, "FETCH_CONST(life_coplevel) >= 1" },
             { "demian2435_swat_helmet", "Riot Helmet", 25, "FETCH_CONST(life_coplevel) >= 1" },
             { "demian2435_pilot_helmet", "SWAT Pilot Helmet", 25, "FETCH_CONST(life_coplevel) >= 1" },
@@ -279,6 +283,7 @@ class Clothing {
         vests[] = {
             { "NONE", "Remove Vest", 0, "" },
             { "jamie_black", "Patrol Vest", 500, "FETCH_CONST(life_coplevel) >= 1" },
+            { "DOC_Vest_Tac", "DoC Vest", 500, "FETCH_CONST(life_coplevel) >= 1" },
             { "TCG_swatvest1", "SWAT Vest", 500, "FETCH_CONST(life_coplevel) >= 1" },
             { "Jamie_Sheriff1", "Riot Vest", 500, "FETCH_CONST(life_coplevel) >= 1" },
             { "V_RebreatherB", "Police Rebreather", 500, "FETCH_CONST(life_coplevel) >= 1" },
